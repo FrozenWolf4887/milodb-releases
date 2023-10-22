@@ -1,6 +1,6 @@
 {
     "format": 1,
-    "versionManifestUri": "",
-    "assetRegisterUri": ""
+    "versionManifestUri": "https://raw.githubusercontent.com/FrozenWolf4887/milodb-releases/main/updater/version-manifest.json",
+    "assetRegisterUri": "https://raw.githubusercontent.com/FrozenWolf4887/milodb-releases/main/updater/asset-register.json"
 }
 
