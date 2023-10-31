@@ -1,6 +1,50 @@
 {
     "format": 1,
     "variants": {
+        "main-windows-linux": {
+            "summary": "Main MiloDB client application for Windows and Linux",
+            "versions": {
+                "2.0.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "1e0e247e28c9308f8c7fd7d8305c8c4449dba9deddd73e5cd764e14c",
+                            "exe": false
+                        },
+                        "database.mdb": {
+                            "digest": "7dff170d134a37af0bc9a42348f448896a5791dad25c14db11684d01",
+                            "exe": false
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c",
+                            "exe": false
+                        },
+                        "milodb": {
+                            "digest": "9e4ff7877c6add802d493173a3fb9a5fb37e1df390e42924526c59c8",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "e5780012670982dfb27a5dd81110d09c53ceb9180a94d87a7d761374",
+                            "exe": true
+                        },
+                        "milodb.ver": {
+                            "digest": "1fa20148ef68cb0b302926bd61d3d3d42c09e826040055f6a29e7a5c",
+                            "exe": false
+                        }
+                    },
+                    "date": "2023-10-31",
+                    "launchFiles": {
+                        "win32": "milodb.exe",
+                        "linux": "milodb"
+                    },
+                    "log": "* Added: 'update' command to perform self updates\n* Database: Updated to 2023-07-31"
+                }
+            }
+        }
     }
 }
-

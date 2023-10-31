@@ -1,0 +1,487 @@
+body {
+    font-family: Sans,Arial,Verdana,sans-serif;
+    font-size: 10pt;
+    background-color: ${pageBackground};
+}
+
+.listTable {
+    display: grid;
+    max-width: max-content;
+    grid-template-columns: repeat(8, auto);
+    background-color: ${listTableBackground};
+    padding: 0.1em 0.4em 0.4em 0.4em;
+    border-radius: 0.5em;
+}
+
+.listTable div {
+    display: inline;
+}
+
+.listTable .th {
+    background-color: ${listTableHeaderBackground};
+    font-weight: bold;
+    padding: 0.1em 0.5em;
+}
+
+.listTable .th.index {
+    grid-column: 1;
+    text-align: right;
+    color: ${listTableHeaderTextIndex};
+}
+
+.listTable .th.hits {
+    grid-column: 2;
+    text-align: center;
+    color: ${listTableHeaderTextHits};
+    border-radius: 0.5em;
+}
+
+.listTable .th.teaseId {
+    grid-column: 3;
+    text-align: center;
+    color: ${listTableHeaderTextTeaseId};
+}
+
+.listTable .th.type {
+    grid-column: 4;
+    text-align: center;
+    color: ${listTableHeaderTextType};
+}
+
+.listTable .th.rating {
+    grid-column: 5;
+    text-align: center;
+    color: ${listTableHeaderTextRating};
+}
+
+.listTable .th.date {
+    grid-column: 6;
+    text-align: center;
+    color: ${listTableHeaderTextDate};
+}
+
+.listTable .th.title {
+    grid-column: 7;
+    text-align: left;
+    color: ${listTableHeaderTextTitle};
+}
+
+.listTable .th.author {
+    grid-column: 8;
+    text-align: left;
+    color: ${listTableHeaderTextAuthor};
+}
+
+.listTable .td {
+    border: 0.1em solid ${listTableValueBorder};
+    background-color: ${listTableValueBackground};
+    padding: 0.05em 0.5em;
+}
+
+.listTable .td.index {
+    grid-column: 1;
+    text-align: right;
+    color: ${listTableValueTextIndex};
+    background-color: ${listTableValueBackgroundIndex};
+}
+
+.listTable .td.hits {
+    grid-column: 2;
+    text-align: center;
+    color: ${listTableValueTextHits};
+}
+
+.listTable .td.teaseId {
+    grid-column: 3;
+    text-align: center;
+    color: ${listTableValueTextTeaseId};
+}
+
+.listTable .td.type {
+    grid-column: 4;
+    text-align: center;
+    color: ${listTableValueTextType};
+}
+
+.listTable .td.rating {
+    grid-column: 5;
+    text-align: center;
+    color: ${listTableValueTextRating};
+}
+
+.listTable .td.date {
+    grid-column: 6;
+    text-align: center;
+    color: ${listTableValueTextDate};
+}
+
+.listTable .td.title {
+    grid-column: 7;
+    color: ${listTableValueTextTitle};
+}
+
+.listTable .td.title img {
+    height: 1.15em;
+    object-fit: contain;
+    vertical-align: top;
+    padding-right: 0.5em;
+}
+
+.listTable .td.author {
+    grid-column: 8;
+    color: ${listTableValueTextAuthor};
+}
+
+.listTable .matchingText {
+    color: ${listTableMatchingTextForeground};
+    background-color: ${listTableMatchingTextBackground};
+    border: 0.1em solid ${listTableMatchingTextBorder};
+    border-radius: 0.3em;
+}
+
+.listTable .deleted {
+    font-weight: bold;
+    color: ${listTableHeaderTextDeleted};
+}
+
+.listTable .authorGone {
+    font-weight: bold;
+    color: ${listTableHeaderTextAuthorGone};
+}
+
+.listTable a.toSummary {
+    display: block;
+    background: inherit;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.listTable a:hover.toSummary {
+    background-color: ${listTableValueBackgroundTitleHover};
+    border-radius: 0.3em;
+}
+
+.listTable a:active.toSummary {
+    background-color: ${listTableValueBackgroundTitleActive};
+    border-radius: 0.3em;
+}
+
+.totalMatches {
+    margin: -0.1em 0em 1em 1em;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    border: 0.3em solid ${listTableHeaderBackground};
+    border-top: 0em;
+    border-radius: 0em 0em 0.3em 0.3em;
+    width: max-content;
+    background-color: ${listTableValueBackground};
+    color: ${listTableValueTextTotalMatches};
+}
+
+.summaryTable {
+    display: grid;
+    max-width: max-content;
+    grid-template-columns: auto auto 5.2em 5.5em auto auto;
+    background-color: ${summaryTableBackground};
+    padding: 0.4em;
+    border-radius: 0.5em;
+    margin-top: 1.5em;
+}
+
+.summaryTable div {
+    display: inline;
+}
+
+.summaryTable .th {
+    padding-left: 0.5em;
+    padding-right: 0.8em;
+    background-color: ${summaryTableHeaderBackground};
+    font-weight: bold;
+    text-align: right;
+}
+
+.summaryTable .th.index {
+    grid-column: 2;
+    grid-row: 1;
+    color: ${summaryTableHeaderTextIndex};
+}
+
+.summaryTable .th.hits {
+    grid-column: 4;
+    grid-row: 1;
+    color: ${summaryTableHeaderTextHits};
+}
+
+.summaryTable .th.teaseId {
+    grid-column: 2;
+    grid-row: 2;
+    color: ${summaryTableHeaderTextTeaseId};
+}
+
+.summaryTable .th.teaseTitle {
+    grid-column: 4;
+    grid-row: 2;
+    color: ${summaryTableHeaderTextTitle};
+}
+
+.summaryTable .th.authorId {
+    grid-column: 2;
+    grid-row: 3;
+    color: ${summaryTableHeaderTextAuthorId};
+}
+
+.summaryTable .th.authorName {
+    grid-column: 4;
+    grid-row: 3;
+    color: ${summaryTableHeaderTextAuthorName};
+}
+
+.summaryTable .th.type {
+    grid-column: 2;
+    grid-row: 4;
+    color: ${summaryTableHeaderTextType};
+}
+
+.summaryTable .th.date {
+    grid-column: 4;
+    grid-row: 4;
+    color: ${summaryTableHeaderTextDate};
+}
+
+.summaryTable .th.rating {
+    grid-column: 2;
+    grid-row: 5;
+    color: ${summaryTableHeaderTextRating};
+}
+
+.summaryTable .th.tags {
+    grid-column: 4;
+    grid-row: 5;
+    color: ${summaryTableHeaderTextTags};
+}
+
+.summaryTable .th.summary {
+    grid-column: 2;
+    grid-row: 6;
+    color: ${summaryTableHeaderTextSummary};
+}
+
+.summaryTable .td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: 0.1em solid ${summaryTableValueBorder};
+    background-color: ${summaryTableValueBackground};
+}
+
+.summaryTable .td.thumbnail {
+    grid-column: 1;
+    grid-row: 1 / span 6;
+    height: 8em;
+    width: 8em;
+    background-color: ${summaryTableThumbnailBackground};
+    border: 0.3em solid ${summaryTableThumbnailBorder};
+    border-radius: 0.3em;
+    padding: 0em;
+}
+
+.summaryTable .td.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.summaryTable .td.index {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: right;
+    color: ${summaryTableValueTextIndex};
+    background-color: ${summaryTableValueBackgroundIndex};
+}
+
+.summaryTable .td.hits {
+    grid-column: 5;
+    grid-row: 1;
+    text-align: left;
+    color: ${summaryTableValueTextHits};
+    border-top-right-radius: 0.3em;
+}
+
+.summaryTable .td.teaseId {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: right;
+    color: ${summaryTableValueTextTeaseId};
+}
+
+.summaryTable .td.authorId {
+    grid-column: 3;
+    grid-row: 3;
+    text-align: right;
+    color: ${summaryTableValueTextAuthorId};
+}
+
+.summaryTable .td.type {
+    grid-column: 3;
+    grid-row: 4;
+    text-align: right;
+    color: ${summaryTableValueTextType};
+}
+
+.summaryTable .td.rating {
+    grid-column: 3;
+    grid-row: 5;
+    text-align: right;
+    color: ${summaryTableValueTextRating};
+}
+
+.summaryTable .td.tags {
+    grid-column: 5;
+    grid-row: 5;
+    color: ${summaryTableValueTextTags};
+}
+
+.summaryTable .td.summary {
+    grid-column: 3 / span 3;
+    grid-row: 6;
+    color: ${summaryTableValueTextSummary};
+    border-bottom-right-radius: 0.3em;
+}
+
+.summaryTable .td.summary > div {
+    display: block;
+    margin: 0;
+}
+
+.summaryTable .td.summary > div:not(:first-of-type) {
+    margin-top: 0.4em;
+}
+
+.summaryTable .td.title {
+    grid-column: 5;
+    grid-row: 2;
+    color: ${summaryTableValueTextTitle};
+}
+
+.summaryTable .td.title img {
+    height: 1.15em;
+    object-fit: contain;
+    vertical-align: top;
+    padding-right: 0.5em;
+}
+
+.summaryTable .td.authorName {
+    grid-column: 5;
+    grid-row: 3;
+    color: ${summaryTableValueTextAuthorName};
+}
+
+.summaryTable .td.date {
+    grid-column: 5;
+    grid-row: 4;
+    color: ${summaryTableValueTextDate};
+}
+
+.summaryTable .matchingText {
+    color: ${summaryTableMatchingTextForeground};
+    background-color: ${summaryTableMatchingTextBackground};
+    border: 0.1em solid ${summaryTableMatchingTextBorder};
+    border-radius: 0.3em;
+}
+
+.summaryTable .deleted {
+    font-weight: bold;
+    color: ${summaryTableHeaderTextDeleted};
+}
+
+.summaryTable .authorGone {
+    font-weight: bold;
+    color: ${summaryTableHeaderTextAuthorGone};
+}
+
+.summaryTable a.toList {
+    display: block;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.summaryTable a:hover.toList {
+    background-color: ${summaryTableValueBackgroundTitleHover};
+    border-radius: 0.3em;
+}
+
+.summaryTable a:active.toList {
+    background-color: ${summaryTableValueBackgroundTitleActive};
+    border-radius: 0.3em;
+}
+
+text-table {
+    display: grid;
+    max-width: max-content;
+    grid-template-columns: auto auto;
+    background-color: ${textTableBackground};
+    padding: 0.1em 0.4em 0.4em 0.4em;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+}
+
+text-table .th {
+    padding: 0.1em 0.5em;
+    font-weight: bold;
+    background-color: ${textTableHeaderBackground};
+}
+
+text-table .th.pageRef {
+    grid-column: 1;
+    color: ${textTableHeaderForegroundPage};
+}
+
+text-table .th.text {
+    grid-column: 2;
+    color: ${textTableHeaderForegroundText};
+}
+
+text-table .td {
+    padding: 0.2em 0.5em;
+    border: 0.1em solid ${textTableContentBorder};
+}
+
+text-table .td.pageRef {
+    grid-column: 1;
+    background-color: ${textTableValueBackgroundPage};
+    color: ${textTableValueForegroundPage};
+}
+
+text-table .td.text {
+    grid-column: 2;
+    background-color: ${textTableContentBackground};
+    color: ${textTableContentForeground};
+    display: block;
+}
+
+text-table .td.text > div:not(:first-of-type) {
+    padding-top: 0.2em;
+}
+
+text-table .matchingText {
+    color: ${textTableMatchingTextForeground};
+    background-color: ${textTableMatchingTextBackground};
+    border: 0.1em solid ${textTableMatchingTextBorder};
+    border-radius: 0.3em;
+}
+
+text-table .ellipsis {
+    color: ${textTableEllipsisForeground};
+    background-color: ${textTableEllipsisBackground};
+    border-radius: 0.3em;
+}
+
+.totm-nominee {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16' height='16' viewBox='0 0 95.795 95.655'%3e%3cdefs%3e%3clinearGradient id='a'%3e%3cstop offset='0' style='stop-color:%23fff;stop-opacity:1'/%3e%3cstop offset='1' style='stop-color:%23a1a1a1;stop-opacity:1'/%3e%3c/linearGradient%3e%3clinearGradient xlink:href='%23a' id='b' x1='86.711' x2='415.002' y1='189.948' y2='444.116' gradientUnits='userSpaceOnUse'/%3e%3c/defs%3e%3cpath d='m384.292 291.28 39.434 32.463-38.095 34.024 19.83 47.071-49.543 12.424-4.315 50.895-49.642-12.024-27.474 43.06-38.368-33.716-44.337 25.36-18.305-47.685-51.044 1.85 5.952-50.729-46.057-22.082 28.845-42.153-30.519-40.957 45.13-23.92-7.99-50.448 51.078-.206 16.37-48.383 45.322 23.554 36.98-35.234 29.185 41.919 49.117-14.013 6.362 50.68 50.003 10.419z' style='opacity:1;fill:url(%23b);fill-opacity:1;fill-rule:evenodd;stroke:%23000;stroke-width:11.5843;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' transform='matrix(.26422 -.01385 .01385 .26422 -22.994 -34.75)'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    padding-left: 1.6em;
+}
+
+.totm-winner {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16' height='16' viewBox='0 0 95.795 95.655'%3e%3cdefs%3e%3clinearGradient id='a'%3e%3cstop offset='0' style='stop-color:%23ffe580;stop-opacity:1'/%3e%3cstop offset='1' style='stop-color:%239d791d;stop-opacity:1'/%3e%3c/linearGradient%3e%3clinearGradient xlink:href='%23a' id='b' x1='86.711' x2='415.002' y1='189.948' y2='444.116' gradientUnits='userSpaceOnUse'/%3e%3c/defs%3e%3cpath d='m384.292 291.28 39.434 32.463-38.095 34.024 19.83 47.071-49.543 12.424-4.315 50.895-49.642-12.024-27.474 43.06-38.368-33.716-44.337 25.36-18.305-47.685-51.044 1.85 5.952-50.729-46.057-22.082 28.845-42.153-30.519-40.957 45.13-23.92-7.99-50.448 51.078-.206 16.37-48.383 45.322 23.554 36.98-35.234 29.185 41.919 49.117-14.013 6.362 50.68 50.003 10.419z' style='opacity:1;fill:url(%23b);fill-opacity:1;fill-rule:evenodd;stroke:%23000;stroke-width:11.5843;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' transform='matrix(.26422 -.01385 .01385 .26422 -22.994 -34.75)'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    padding-left: 1.6em;
+}

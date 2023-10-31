@@ -4,6 +4,36 @@
     "assetRegister": {
         "templateAssetUri": "https://raw.githubusercontent.com/FrozenWolf4887/milodb-releases/main/updater/assets/<>",
         "assets": {
+            "1e0e247e28c9308f8c7fd7d8305c8c4449dba9deddd73e5cd764e14c": {
+                "uri": null,
+                "id": null,
+                "size": 8985
+            },
+            "7dff170d134a37af0bc9a42348f448896a5791dad25c14db11684d01": {
+                "uri": null,
+                "id": null,
+                "size": 24635200
+            },
+            "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c": {
+                "uri": null,
+                "id": null,
+                "size": 12191
+            },
+            "9e4ff7877c6add802d493173a3fb9a5fb37e1df390e42924526c59c8": {
+                "uri": null,
+                "id": null,
+                "size": 7403856
+            },
+            "e5780012670982dfb27a5dd81110d09c53ceb9180a94d87a7d761374": {
+                "uri": null,
+                "id": null,
+                "size": 7928894
+            },
+            "1fa20148ef68cb0b302926bd61d3d3d42c09e826040055f6a29e7a5c": {
+                "uri": null,
+                "id": null,
+                "size": 412
+            }
         }
     }
 }
