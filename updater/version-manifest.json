@@ -39,8 +39,8 @@
                     },
                     "date": "2023-10-31",
                     "launchFiles": {
-                        "win32": "milodb.exe",
-                        "linux": "milodb"
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
                     },
                     "log": "* Added: 'update' command to perform self updates\n* Database: Updated to 2023-07-31"
                 }
