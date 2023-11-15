@@ -20,8 +20,8 @@
                 "size": 7928894
             }
         },
-        "templateAssetUri": "https://raw.githubusercontent.com/FrozenWolf4887/milodb-releases/main/updater/assets/<>"
+        "templateAssetUri": "assets/<>"
     },
     "format": 2,
-    "versionManifestUri": "https://raw.githubusercontent.com/FrozenWolf4887/milodb-releases/main/updater/version-manifest.json"
+    "versionManifestUri": "version-manifest.json"
 }
