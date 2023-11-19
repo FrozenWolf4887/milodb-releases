@@ -1,5 +1,5 @@
 {
-    "format": 1,
+    "format": 2,
     "variants": {
         "main-windows-linux": {
             "summary": "Main MiloDB client application for Windows and Linux",
@@ -13,28 +13,23 @@
                     },
                     "coreFiles": {
                         "changelog.md": {
-                            "digest": "1e0e247e28c9308f8c7fd7d8305c8c4449dba9deddd73e5cd764e14c",
-                            "exe": false
+                            "digest": "1e0e247e28c9308f8c7fd7d8305c8c4449dba9deddd73e5cd764e14c"
                         },
                         "database.mdb": {
-                            "digest": "7dff170d134a37af0bc9a42348f448896a5791dad25c14db11684d01",
-                            "exe": false
+                            "digest": "7dff170d134a37af0bc9a42348f448896a5791dad25c14db11684d01"
                         },
                         "default.css": {
-                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c",
-                            "exe": false
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
                         },
                         "milodb": {
                             "digest": "9e4ff7877c6add802d493173a3fb9a5fb37e1df390e42924526c59c8",
                             "exe": true
                         },
                         "milodb.exe": {
-                            "digest": "e5780012670982dfb27a5dd81110d09c53ceb9180a94d87a7d761374",
-                            "exe": true
+                            "digest": "e5780012670982dfb27a5dd81110d09c53ceb9180a94d87a7d761374"
                         },
                         "milodb.ver": {
-                            "digest": "1fa20148ef68cb0b302926bd61d3d3d42c09e826040055f6a29e7a5c",
-                            "exe": false
+                            "digest": "1fa20148ef68cb0b302926bd61d3d3d42c09e826040055f6a29e7a5c"
                         }
                     },
                     "date": "2023-10-31",
