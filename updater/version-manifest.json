@@ -4,7 +4,7 @@
         "main-windows-linux": {
             "summary": "Main MiloDB client application for Windows and Linux",
             "versions": {
-                "2.0.0": {
+                "3.0.0": {
                     "configFiles": {
                         "0": "config.json",
                         "1": "config.json.old",
@@ -13,31 +13,31 @@
                     },
                     "coreFiles": {
                         "changelog.md": {
-                            "digest": "1e0e247e28c9308f8c7fd7d8305c8c4449dba9deddd73e5cd764e14c"
+                            "digest": "f6ddcf699aeba2b756f742e32b1cf0ceceb5ab5b29d15a69ff37217c"
                         },
                         "database.mdb": {
-                            "digest": "7dff170d134a37af0bc9a42348f448896a5791dad25c14db11684d01"
+                            "digest": "2d146738b1f00dc4084a05ba5f001db4274c75af7168602bc900e12d"
                         },
                         "default.css": {
                             "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
                         },
                         "milodb": {
-                            "digest": "9e4ff7877c6add802d493173a3fb9a5fb37e1df390e42924526c59c8",
+                            "digest": "ed649e4628666cced6e316cfee05868a4642284be9b4b8d01a628428",
                             "exe": true
                         },
                         "milodb.exe": {
-                            "digest": "e5780012670982dfb27a5dd81110d09c53ceb9180a94d87a7d761374"
+                            "digest": "f4f2147e144fcea4e1195035f176f6b6f6274412c7ef5662be2a6150"
                         },
                         "milodb.ver": {
-                            "digest": "1fa20148ef68cb0b302926bd61d3d3d42c09e826040055f6a29e7a5c"
+                            "digest": "aac8e91b5067e6d203e18224317a8091841cf72bfe81efa87083b508"
                         }
                     },
-                    "date": "2023-10-31",
+                    "date": "2024-04-30",
                     "launchFiles": {
                         "linux": "milodb",
                         "win32": "milodb.exe"
                     },
-                    "log": "* Added: 'update' command to perform self updates\n* Database: Updated to 2023-07-31"
+                    "log": "* Added: 'update' command to perform self updates\n* Database: Updated to 2024-01-30"
                 }
             }
         }
