@@ -38,6 +38,41 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Added: 'update' command to perform self updates\n* Database: Updated to 2024-01-30"
+                },
+                "3.1.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "3bc39eb67c94c854edf9ce91f4f3b1b88d8c21ed2e0ae077e9928f6c"
+                        },
+                        "database.mdb": {
+                            "digest": "b11c5ffbf531406dd0e736c2296f89be0bc8b594b365d37e3d1bdb72"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "e1ce91c95c7f3d232e79042f25419def2771c6b4445d876c1aeb0e5d",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "83b809c5296bfd77b0f8cd4d1634df9bbb7a90dc4b3a02a95005b3ec"
+                        },
+                        "milodb.ver": {
+                            "digest": "e1b2c5e01ea48e3e5afadb7303253d12d2b00c18fc22f59428be4ff2"
+                        }
+                    },
+                    "date": "2024-05-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Help text of 'update' command had rogue linefeed and full stop\n* Changed: 'query' command can now match against partial dates\n* Changed: 'update' command re-uses remote connections\n* Changed: 'update' command verifies integrity of downloaded assets\n* Database: Updated to 2024-02-28"
                 }
             }
         }
