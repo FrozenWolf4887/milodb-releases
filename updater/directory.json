@@ -1,14 +1,29 @@
 {
     "assetRegister": {
         "assets": {
+            "2acb4c33ceff16e792517ae4cafe5596208a571c322f2f20288ec133": {
+                "size": 412
+            },
             "2d146738b1f00dc4084a05ba5f001db4274c75af7168602bc900e12d": {
                 "size": 25440076
             },
             "3bc39eb67c94c854edf9ce91f4f3b1b88d8c21ed2e0ae077e9928f6c": {
                 "size": 9860
             },
+            "7c940f99dbecbac157c5379f48698571998805a22b91a5a200b0f16f": {
+                "size": 10258
+            },
+            "838eba0931b7699e1b161fd5c3a6a9a1533b94be0b16f12a49a47e44": {
+                "size": 8071175
+            },
             "83b809c5296bfd77b0f8cd4d1634df9bbb7a90dc4b3a02a95005b3ec": {
                 "size": 8067412
+            },
+            "a12a52e8cb8d6317cc2a77efe1a85e0aa30b0c50c60397fecdb7aabb": {
+                "size": 7795176
+            },
+            "a960e09b491dca8a0c8a5e705f2cb6b9c815666145c75838084e3322": {
+                "size": 25687140
             },
             "aac8e91b5067e6d203e18224317a8091841cf72bfe81efa87083b508": {
                 "size": 412

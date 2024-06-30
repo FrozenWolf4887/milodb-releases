@@ -73,6 +73,41 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Help text of 'update' command had rogue linefeed and full stop\n* Changed: 'query' command can now match against partial dates\n* Changed: 'update' command re-uses remote connections\n* Changed: 'update' command verifies integrity of downloaded assets\n* Database: Updated to 2024-02-28"
+                },
+                "3.2.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "7c940f99dbecbac157c5379f48698571998805a22b91a5a200b0f16f"
+                        },
+                        "database.mdb": {
+                            "digest": "a960e09b491dca8a0c8a5e705f2cb6b9c815666145c75838084e3322"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "a12a52e8cb8d6317cc2a77efe1a85e0aa30b0c50c60397fecdb7aabb",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "838eba0931b7699e1b161fd5c3a6a9a1533b94be0b16f12a49a47e44"
+                        },
+                        "milodb.ver": {
+                            "digest": "2acb4c33ceff16e792517ae4cafe5596208a571c322f2f20288ec133"
+                        }
+                    },
+                    "date": "2024-06-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: 'query' command operator 'not' now has higher precedence as was originally intended\n* Fixed: Unit test failure on Windows due to inability to delete read-only files\n* Added: 'config' command to view config entries at runtime\n* Changed: 'update' command will prompt and wait for user response if there is any error during the update\n* Database: Updated to 2024-03-30"
                 }
             }
         }
