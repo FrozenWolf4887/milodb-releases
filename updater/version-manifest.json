@@ -108,6 +108,41 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: 'query' command operator 'not' now has higher precedence as was originally intended\n* Fixed: Unit test failure on Windows due to inability to delete read-only files\n* Added: 'config' command to view config entries at runtime\n* Changed: 'update' command will prompt and wait for user response if there is any error during the update\n* Database: Updated to 2024-03-30"
+                },
+                "3.3.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "3976fb2b16acccd6f7edeb2d00c8658a2be394a56a72c7687c941349"
+                        },
+                        "database.mdb": {
+                            "digest": "04699105ac56b82ab2cd687244fbe8f0e32742bbe694a728e02da321"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "82f10295e003f4769c4262b373ed489247115ef954e7c0470f1f6d5c",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "2c48888d2c3ee3a2922bd67bc1124860bccb4d4499f41c62e97cda51"
+                        },
+                        "milodb.ver": {
+                            "digest": "39b558e108b8538d5a1c57db50bed8039d11a40afdf49f7ab10fc202"
+                        }
+                    },
+                    "date": "2024-07-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: 'about' command to show system info and forum links\n* Added: 'config purge' subcommand to purge redundant entries from the configuration file\n* Changed: Replaced pip requirements-{windows,linux}.txt with requirements-{run,build,develop}.txt\n* Database: Replaced non-breaking spaces with regular spaces in tease text\n* Database: Updated to 2024-04-30"
                 }
             }
         }
