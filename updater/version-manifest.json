@@ -143,6 +143,41 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Added: 'about' command to show system info and forum links\n* Added: 'config purge' subcommand to purge redundant entries from the configuration file\n* Changed: Replaced pip requirements-{windows,linux}.txt with requirements-{run,build,develop}.txt\n* Database: Replaced non-breaking spaces with regular spaces in tease text\n* Database: Updated to 2024-04-30"
+                },
+                "3.4.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "7a4324f1a9cbbc1048e7a51c1bb275ccac3b48ce985b111882f9045a"
+                        },
+                        "database.mdb": {
+                            "digest": "a08bd617dbf0aaa2b799442fa68b599d650ee847bbaa2fa23046da67"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "ae5366328e5cdbd9a657c1b285f110d5e241929a36737689383892e9",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "f8fd5d06db9264172f99089f049dcb7ee692b525f4b0f90ec3dd0a34"
+                        },
+                        "milodb.ver": {
+                            "digest": "fd8cc3b06a8949ecc7a6d956fbec8e46bcaebeb31fc434fc5738e2e2"
+                        }
+                    },
+                    "date": "2024-08-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: 'config set' subcommand to set entries at runtime\n* Added: 'config edit' subcommand to edit entries at runtime\n* Added: 'config reset' subcommand to reset entries at runtime\n* Database: Sorted tags alphabetically\n* Database: Replaced ambiguous punctuation with standard punctuation\n* Database: Updated to 2024-05-31"
                 }
             }
         }
