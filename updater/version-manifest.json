@@ -178,6 +178,41 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Added: 'config set' subcommand to set entries at runtime\n* Added: 'config edit' subcommand to edit entries at runtime\n* Added: 'config reset' subcommand to reset entries at runtime\n* Database: Sorted tags alphabetically\n* Database: Replaced ambiguous punctuation with standard punctuation\n* Database: Updated to 2024-05-31"
+                },
+                "3.5.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "53ddaf07614471f5ce325eea0bf525e40920aa01cc649d4bdb0b4ff0"
+                        },
+                        "database.mdb": {
+                            "digest": "d05f88be66c5f5e308c360fe4895e07f9cb62d6eaa6e0aad154ad4cf"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "ca1ca2b253b1cab7d15c8bb895c4b68dcd50ec6ac8e7ebd54e7c398e",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "bc21ffc8f3e63a0901e9396b9025769778e34dce1904066b852c897a"
+                        },
+                        "milodb.ver": {
+                            "digest": "ac3a83193156ebc485287972616961989d9faa5242fc048688876039"
+                        }
+                    },
+                    "date": "2024-09-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: Automatic migration to newer configuration versions\n* Changed: Split launch options into platform specific groups\n* Database: Updated to 2024-06-30"
                 }
             }
         }
