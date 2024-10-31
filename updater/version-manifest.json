@@ -213,6 +213,41 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Added: Automatic migration to newer configuration versions\n* Changed: Split launch options into platform specific groups\n* Database: Updated to 2024-06-30"
+                },
+                "3.6.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "9e7565cdc265a9a710fe7d966de22376a70e7a45add7c4218356a7d1"
+                        },
+                        "database.mdb": {
+                            "digest": "69d9c82ee1437a44e00b769fa949632866e4828ce570758db898c044"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "1f8f99f0bf49739cfdbc1fc5da43a6711d943a6c252fda9ead7fb03e",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "dabc4271997b888cf1cf0d43fa465f6391b837ced305afb558fd35d3"
+                        },
+                        "milodb.ver": {
+                            "digest": "ce920820149f650af903d5f40fd397507aced6b423ef83f5d7a410fb"
+                        }
+                    },
+                    "date": "2024-10-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Database format updated\n* Database: Updated to 2024-07-30"
                 }
             }
         }
