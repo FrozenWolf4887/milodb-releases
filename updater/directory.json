@@ -1,0 +1,159 @@
+{
+    "assetRegister": {
+        "assets": {
+            "04699105ac56b82ab2cd687244fbe8f0e32742bbe694a728e02da321": {
+                "size": 25845748
+            },
+            "1f8f99f0bf49739cfdbc1fc5da43a6711d943a6c252fda9ead7fb03e": {
+                "size": 7820824
+            },
+            "294d12d9ab91f0ca657a098e233d5e30b5b8ec07fd1d9e21419b9067": {
+                "size": 19156
+            },
+            "2acb4c33ceff16e792517ae4cafe5596208a571c322f2f20288ec133": {
+                "size": 412
+            },
+            "2b2e942e2e3a87e1b828d0dec0646b00cdd81fe2e23179ef45cc2b31": {
+                "size": 26190296
+            },
+            "2c48888d2c3ee3a2922bd67bc1124860bccb4d4499f41c62e97cda51": {
+                "size": 8081994
+            },
+            "2d146738b1f00dc4084a05ba5f001db4274c75af7168602bc900e12d": {
+                "size": 25440076
+            },
+            "3976fb2b16acccd6f7edeb2d00c8658a2be394a56a72c7687c941349": {
+                "size": 10640
+            },
+            "39b558e108b8538d5a1c57db50bed8039d11a40afdf49f7ab10fc202": {
+                "size": 412
+            },
+            "3ada0f187283e2f2fcb0884302ab14323b7447fd21db909fe4673336": {
+                "size": 10539608
+            },
+            "3bc39eb67c94c854edf9ce91f4f3b1b88d8c21ed2e0ae077e9928f6c": {
+                "size": 9860
+            },
+            "40166dee8f12fd50c8db6eaaefba3714f788214d9ad44f6b17bdc5ce": {
+                "size": 9847560
+            },
+            "4294e269aa9abf2e32242b63c3b633a321c14ddaa53eb7e150dc1531": {
+                "size": 7819832
+            },
+            "4703d9f8929d52876ae567d66d16c88a411e3cf74cf2ce9e96d57c86": {
+                "size": 19155
+            },
+            "53ddaf07614471f5ce325eea0bf525e40920aa01cc649d4bdb0b4ff0": {
+                "size": 11168
+            },
+            "53f5aab18ac8b70142603f2a92667732bb90fdebfdfe946cd44ff7de": {
+                "size": 446
+            },
+            "69d9c82ee1437a44e00b769fa949632866e4828ce570758db898c044": {
+                "size": 26032344
+            },
+            "7a4324f1a9cbbc1048e7a51c1bb275ccac3b48ce985b111882f9045a": {
+                "size": 10988
+            },
+            "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb": {
+                "size": 19196
+            },
+            "7c940f99dbecbac157c5379f48698571998805a22b91a5a200b0f16f": {
+                "size": 10258
+            },
+            "82f10295e003f4769c4262b373ed489247115ef954e7c0470f1f6d5c": {
+                "size": 7812056
+            },
+            "838eba0931b7699e1b161fd5c3a6a9a1533b94be0b16f12a49a47e44": {
+                "size": 8071175
+            },
+            "83b809c5296bfd77b0f8cd4d1634df9bbb7a90dc4b3a02a95005b3ec": {
+                "size": 8067412
+            },
+            "8809c244bd380faddba628d905d063508bdfb0998e51bde88747b800": {
+                "size": 26157140
+            },
+            "96e1678368b95240f5c70d6f5a424e8df7714fa2757a12eebffbdbc3": {
+                "size": 8093282
+            },
+            "9e7565cdc265a9a710fe7d966de22376a70e7a45add7c4218356a7d1": {
+                "size": 11260
+            },
+            "a08bd617dbf0aaa2b799442fa68b599d650ee847bbaa2fa23046da67": {
+                "size": 25827384
+            },
+            "a12a52e8cb8d6317cc2a77efe1a85e0aa30b0c50c60397fecdb7aabb": {
+                "size": 7795176
+            },
+            "a960e09b491dca8a0c8a5e705f2cb6b9c815666145c75838084e3322": {
+                "size": 25687140
+            },
+            "aac8e91b5067e6d203e18224317a8091841cf72bfe81efa87083b508": {
+                "size": 412
+            },
+            "abf72ff74b72fece4e8d3d8c3336ae5455ab5a27bcc37584ef6206c0": {
+                "size": 11829
+            },
+            "ac3a83193156ebc485287972616961989d9faa5242fc048688876039": {
+                "size": 412
+            },
+            "ae5366328e5cdbd9a657c1b285f110d5e241929a36737689383892e9": {
+                "size": 7814272
+            },
+            "b11c5ffbf531406dd0e736c2296f89be0bc8b594b365d37e3d1bdb72": {
+                "size": 25561952
+            },
+            "bc21ffc8f3e63a0901e9396b9025769778e34dce1904066b852c897a": {
+                "size": 8091867
+            },
+            "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c": {
+                "size": 12191
+            },
+            "c7af848b5168cdb3f3a5f4a5cea8dd4785f61617f88b32720c059414": {
+                "size": 11560
+            },
+            "ca1ca2b253b1cab7d15c8bb895c4b68dcd50ec6ac8e7ebd54e7c398e": {
+                "size": 7818464
+            },
+            "ce920820149f650af903d5f40fd397507aced6b423ef83f5d7a410fb": {
+                "size": 412
+            },
+            "d05f88be66c5f5e308c360fe4895e07f9cb62d6eaa6e0aad154ad4cf": {
+                "size": 25889768
+            },
+            "dabc4271997b888cf1cf0d43fa465f6391b837ced305afb558fd35d3": {
+                "size": 8094246
+            },
+            "e1b2c5e01ea48e3e5afadb7303253d12d2b00c18fc22f59428be4ff2": {
+                "size": 412
+            },
+            "e1ce91c95c7f3d232e79042f25419def2771c6b4445d876c1aeb0e5d": {
+                "size": 7791384
+            },
+            "e3320c791796f5fd55186a300d639d659c19bc4bda7d5a8309840cac": {
+                "size": 446
+            },
+            "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67": {
+                "size": 19196
+            },
+            "ed649e4628666cced6e316cfee05868a4642284be9b4b8d01a628428": {
+                "size": 7785248
+            },
+            "f4f2147e144fcea4e1195035f176f6b6f6274412c7ef5662be2a6150": {
+                "size": 8061292
+            },
+            "f6ddcf699aeba2b756f742e32b1cf0ceceb5ab5b29d15a69ff37217c": {
+                "size": 9545
+            },
+            "f8fd5d06db9264172f99089f049dcb7ee692b525f4b0f90ec3dd0a34": {
+                "size": 8083929
+            },
+            "fd8cc3b06a8949ecc7a6d956fbec8e46bcaebeb31fc434fc5738e2e2": {
+                "size": 412
+            }
+        },
+        "templateAssetUri": "assets/<>"
+    },
+    "format": 2,
+    "versionManifestUri": "version-manifest.json"
+}
