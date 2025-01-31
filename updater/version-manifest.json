@@ -324,6 +324,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: 'unknown' author ID shown in browse summary had wrong colour in default-dark.css\n* Changed: Upgraded to Python 3.12\n* Changed: Fortified update fetches by handling incomplete reads and URI redirections\n* Database: Updated to 2024-09-30"
+                },
+                "3.9.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "d44cf007e4535019cbc795a66fbf4f3301557647a6c0af633ee4a770"
+                        },
+                        "database.mdb": {
+                            "digest": "5ccb4d898c605a5a2aadec9bf9dffc3f63e2048a94b0e98552c68159"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "f23366d39b66b13d8e3d0067ac09cf4c1b867e3e0a10c43f5b0a001c",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "0f9df5939b2af32b2ed50b535a9ca78c49bdc0f2634e2cdee05e3ec0"
+                        },
+                        "milodb.ver": {
+                            "digest": "36818918d7b3ee299a92cbf79b95547bd9d64830108af4d10a8b929c"
+                        }
+                    },
+                    "date": "2025-01-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Handle failures launching the default web browser\n* Added: 'update list' subcommand to list available versions and variants\n* Added: 'update switch' subcommand to support switching to different variants\n* Changed: 'update' command is less verbose when fetching the remote manifest\n* Changed: 'update' command will no longer show file differences and strategy if there is no update available\n* Changed: 'about' command now shows current variant\n* Database: Updated to 2024-10-30"
                 }
             }
         }
