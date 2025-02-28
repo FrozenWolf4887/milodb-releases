@@ -74,6 +74,44 @@
                     },
                     "log": "* Fixed: Help text of 'update' command had rogue linefeed and full stop\n* Changed: 'query' command can now match against partial dates\n* Changed: 'update' command re-uses remote connections\n* Changed: 'update' command verifies integrity of downloaded assets\n* Database: Updated to 2024-02-28"
                 },
+                "3.10.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "b2e030580455de2b3a5603b65e97eb0b972fd45bead4782a212ac51b"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "53bbe4e9638e402dfef14bab3a152a3f115ffc23079af1ca14b93447",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "ed9536658e4820e2d285987087c9a1b0411181bc8e32c8a4fcd265b8"
+                        },
+                        "milodb.ver": {
+                            "digest": "6d714312168b3f4ae28e95cbae8784dad77887ea948fc122016be342"
+                        }
+                    },
+                    "date": "2025-02-28",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Improved consistency of error messages on command parsing\n* Database: Updated to 2024-11-30"
+                },
                 "3.2.0": {
                     "configFiles": {
                         "0": "config.json",
