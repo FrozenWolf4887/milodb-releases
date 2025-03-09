@@ -4,11 +4,72 @@
         "gui-linux": {
             "summary": "Experimental MiloDB GUI client application for Linux",
             "versions": {
+                "4.0.0-alpha.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "2f36971574ac3593098f607b9fb70d09987038742e64bf5d51c203bc"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "ae2941313c3d37ec80e7e82603f5293c6fd84ec97e6ad0466fc88641",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "efc466750603fb3fb9657e6e9cf1d91a743922342a56d17067a4978e"
+                        }
+                    },
+                    "date": "2025-03-09",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Added: Initial release of GUI for evaluation edition"
+                }
             }
         },
         "gui-windows": {
             "summary": "Experimental MiloDB GUI client application for Windows",
             "versions": {
+                "4.0.0-alpha.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "2f36971574ac3593098f607b9fb70d09987038742e64bf5d51c203bc"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "7a619bcba7f98a8268bda55484c0a7913b3b355656f6b29a4cca4b62"
+                        },
+                        "milodb.ver": {
+                            "digest": "59c6743b5bedcfb4427b1e600c9f40856c4aa82fa23020411a118da0"
+                        }
+                    },
+                    "date": "2025-03-09",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: Initial release of GUI for evaluation edition"
+                }
             }
         },
         "main-windows-linux": {
