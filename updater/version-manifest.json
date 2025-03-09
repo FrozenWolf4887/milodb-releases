@@ -1,6 +1,16 @@
 {
     "format": 2,
     "variants": {
+        "gui-linux": {
+            "summary": "Experimental MiloDB GUI client application for Linux",
+            "versions": {
+            }
+        },
+        "gui-windows": {
+            "summary": "Experimental MiloDB GUI client application for Windows",
+            "versions": {
+            }
+        },
         "main-windows-linux": {
             "summary": "Main MiloDB client application for Windows and Linux",
             "versions": {
