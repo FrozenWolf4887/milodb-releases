@@ -34,6 +34,37 @@
                         "linux": "milodb"
                     },
                     "log": "* Added: Initial release of GUI for evaluation edition"
+                },
+                "4.0.0-alpha.2": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "d1b4fcbab8696c37ff894cf7bcd08ac6e511cf2c12d3f635973cf725"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "0928bee2f1520d1f4fd27b624c9b8785fee5ae1f91250c13bed98dd4",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "e55049309a868b337dbd65bb829700f5542270eb1e6102d6fe19005d"
+                        }
+                    },
+                    "date": "2025-03-10",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Windows - Scrolling the card panel up and down with the scroll bar crashed the application"
                 }
             }
         },
@@ -69,6 +100,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Added: Initial release of GUI for evaluation edition"
+                },
+                "4.0.0-alpha.2": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "d1b4fcbab8696c37ff894cf7bcd08ac6e511cf2c12d3f635973cf725"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "7f5d06b3c72b7491400df6edc1f0be63d7a7eeb62f5370092a5d710d"
+                        },
+                        "milodb.ver": {
+                            "digest": "8b9048dbe25ce12ded9061d24db3e1f1014bac29ab70796f4118aba3"
+                        }
+                    },
+                    "date": "2025-03-10",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Windows - Scrolling the card panel up and down with the scroll bar crashed the application"
                 }
             }
         },

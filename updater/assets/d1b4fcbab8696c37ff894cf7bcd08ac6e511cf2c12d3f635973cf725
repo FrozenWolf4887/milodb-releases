@@ -1,0 +1,9 @@
+# MiloDB Experimental GUI, Change Log
+
+## 4.0.0-alpha.2, 2025-03-10
+
+* Fixed: Windows - Scrolling the card panel up and down with the scroll bar crashed the application
+
+## 4.0.0-alpha.1, 2025-03-09
+
+* Added: Initial release of GUI for evaluation edition
