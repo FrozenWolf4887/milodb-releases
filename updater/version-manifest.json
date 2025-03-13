@@ -65,6 +65,37 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Windows - Scrolling the card panel up and down with the scroll bar crashed the application"
+                },
+                "4.0.0-alpha.3": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "4998d91d6c7ffcccb4af5a390a6c553f32a4d8d8bb8378fa5eec98f7"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "9bcaffc185103a4777041b76748f5fe23e77fae4cebc11a9ab0101e7",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "2db4a8c68de67eec47a5879a26cb07185226340ebe1547370d7afc75"
+                        }
+                    },
+                    "date": "2025-03-13",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform\n* Fixed: Update no longer fails when trying to delete non-existant deprecated config files\n* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp\n* Added: Warn user when trying to update/switch to a variant with an unsupported main executable\n* Added: Scroll selected tease into view in other panels if not visible\n* Added: Popup menu to open tease/author profile"
                 }
             }
         },
@@ -130,6 +161,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Windows - Scrolling the card panel up and down with the scroll bar crashed the application"
+                },
+                "4.0.0-alpha.3": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "4998d91d6c7ffcccb4af5a390a6c553f32a4d8d8bb8378fa5eec98f7"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "341d8e5a03a586e9abf1b81cac09a3f4422ebfd94874897a28346a3e"
+                        },
+                        "milodb.ver": {
+                            "digest": "4813e8819115d828ede83334d6e4e2ebbd41a0868fa7b917cbc2aead"
+                        }
+                    },
+                    "date": "2025-03-13",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform\n* Fixed: Update no longer fails when trying to delete non-existant deprecated config files\n* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp\n* Added: Warn user when trying to update/switch to a variant with an unsupported main executable\n* Added: Scroll selected tease into view in other panels if not visible\n* Added: Popup menu to open tease/author profile"
                 }
             }
         },
