@@ -96,6 +96,37 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform\n* Fixed: Update no longer fails when trying to delete non-existant deprecated config files\n* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp\n* Added: Warn user when trying to update/switch to a variant with an unsupported main executable\n* Added: Scroll selected tease into view in other panels if not visible\n* Added: Popup menu to open tease/author profile"
+                },
+                "4.0.0-alpha.4": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "c1f33a0e851d97f0f7efac726e31a467e752ab239b8da18fff0b8f15"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "56c85bed0272f45d54e122bbc3ec6ed5f80b13e24d55b8ecd7374bb6",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "2369bcff454d99b5c04664e80a7cf66dfd03349da42c54cf07db0b14"
+                        }
+                    },
+                    "date": "2025-03-14",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Changed: 'Open Author...' in popup menu will be disabled if author is not known\n* Added: Popup menu now includes opening of a tease author's tease list\n* Added: Popup menu now includes copying of tease and author URIs"
                 }
             }
         },
@@ -191,6 +222,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform\n* Fixed: Update no longer fails when trying to delete non-existant deprecated config files\n* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp\n* Added: Warn user when trying to update/switch to a variant with an unsupported main executable\n* Added: Scroll selected tease into view in other panels if not visible\n* Added: Popup menu to open tease/author profile"
+                },
+                "4.0.0-alpha.4": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "c1f33a0e851d97f0f7efac726e31a467e752ab239b8da18fff0b8f15"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "5c39f9c37a414c61f678b2571134014c87ed18f64c79691349aadfc0"
+                        },
+                        "milodb.ver": {
+                            "digest": "5f8ad7e9debed5cbd8154dee4921a79794bd581a29f6759bdadf3a70"
+                        }
+                    },
+                    "date": "2025-03-14",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: 'Open Author...' in popup menu will be disabled if author is not known\n* Added: Popup menu now includes opening of a tease author's tease list\n* Added: Popup menu now includes copying of tease and author URIs"
                 }
             }
         },
