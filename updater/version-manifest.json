@@ -127,6 +127,37 @@
                         "linux": "milodb"
                     },
                     "log": "* Changed: 'Open Author...' in popup menu will be disabled if author is not known\n* Added: Popup menu now includes opening of a tease author's tease list\n* Added: Popup menu now includes copying of tease and author URIs"
+                },
+                "4.0.0-alpha.5": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "9421f2ed83686536c27fad6b37df342e26f7790fea691f2bb295ce1d"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "ba8b35f9923ac88d946ef5136941c3fcd24bfb7af2fcb7b9a4123113",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "ec3110f8c095b9c6d3d99598f55aaa7e19e6dc9b97f79fcd87d3bee6"
+                        }
+                    },
+                    "date": "2025-03-16",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Changed: Upgraded setuptools package to try and avoid Microsoft Defender false-positive trojan detection"
                 }
             }
         },
@@ -252,6 +283,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Changed: 'Open Author...' in popup menu will be disabled if author is not known\n* Added: Popup menu now includes opening of a tease author's tease list\n* Added: Popup menu now includes copying of tease and author URIs"
+                },
+                "4.0.0-alpha.5": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "9421f2ed83686536c27fad6b37df342e26f7790fea691f2bb295ce1d"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "963741dbdbdcc954f9d13a47565c107f8467fa41ee3513441979ed90"
+                        },
+                        "milodb.ver": {
+                            "digest": "150c820c7cc83782733220b535545570b1ed0132de53d5f822929a4f"
+                        }
+                    },
+                    "date": "2025-03-16",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Upgraded setuptools package to try and avoid Microsoft Defender false-positive trojan detection"
                 }
             }
         },
