@@ -158,6 +158,37 @@
                         "linux": "milodb"
                     },
                     "log": "* Changed: Upgraded setuptools package to try and avoid Microsoft Defender false-positive trojan detection"
+                },
+                "4.0.0-alpha.6": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "f46dd45e70486972ad0e2eff98e3856521818731fb4660dbc2d9dc26"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "ea237c3d5cc81110c9327ae45e57a3633c30993030cadaec0659ecb4",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "c223ec4c70cb84305eca63c4c758a396e03d48acb8d0a7394982c7a5"
+                        }
+                    },
+                    "date": "2025-03-21",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Changed: Replaced text with icons for TOTM and tease/author status in list panel\n* Changed: Reordered columns in list panel\n* Added: Sort by any column in the list panel\n* Added: Highlight which list column is used for sorting\n* Added: Invert sort direction when clicking on list header again"
                 }
             }
         },
@@ -313,6 +344,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Changed: Upgraded setuptools package to try and avoid Microsoft Defender false-positive trojan detection"
+                },
+                "4.0.0-alpha.6": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "f46dd45e70486972ad0e2eff98e3856521818731fb4660dbc2d9dc26"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "8292a332f93a642eaf151e1ef8d46aea4d65a4ba793d153b1c2a0445"
+                        },
+                        "milodb.ver": {
+                            "digest": "814188ee3cf37a9d7589f299d9a54ba8f6989ceef02df85675471a22"
+                        }
+                    },
+                    "date": "2025-03-21",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Replaced text with icons for TOTM and tease/author status in list panel\n* Changed: Reordered columns in list panel\n* Added: Sort by any column in the list panel\n* Added: Highlight which list column is used for sorting\n* Added: Invert sort direction when clicking on list header again"
                 }
             }
         },
