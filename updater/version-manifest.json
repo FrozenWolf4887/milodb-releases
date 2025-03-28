@@ -189,6 +189,37 @@
                         "linux": "milodb"
                     },
                     "log": "* Changed: Replaced text with icons for TOTM and tease/author status in list panel\n* Changed: Reordered columns in list panel\n* Added: Sort by any column in the list panel\n* Added: Highlight which list column is used for sorting\n* Added: Invert sort direction when clicking on list header again"
+                },
+                "4.0.0-alpha.7": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "ed32c613cfebee3e77129913a9aac1ec5ad0a2457e099a76961596bf"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "4801b976d3043ade7cadfd33e270f37de9c38d2ad38c5c166ab19233",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "761d5ced232ed89afbf24faa41bb2cc033ae0122fec7d449c536b190"
+                        }
+                    },
+                    "date": "2025-03-28",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Scroll-wheel now works on background of some tables\n* Changed: Open tease/author is now disabled if launch configuration option is set to 'none'\n* Added: About dialog\n* Added: Stats dialog"
                 }
             }
         },
@@ -374,6 +405,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Changed: Replaced text with icons for TOTM and tease/author status in list panel\n* Changed: Reordered columns in list panel\n* Added: Sort by any column in the list panel\n* Added: Highlight which list column is used for sorting\n* Added: Invert sort direction when clicking on list header again"
+                },
+                "4.0.0-alpha.7": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "ed32c613cfebee3e77129913a9aac1ec5ad0a2457e099a76961596bf"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "d9c6f20af3556e4cfbdf156ba8caabbfa8d913d4d053a24ef4439e12"
+                        },
+                        "milodb.ver": {
+                            "digest": "56ce0f9709a47f1c0ac02670aa5cc227f59acfcfc0987e1f9a3e37e2"
+                        }
+                    },
+                    "date": "2025-03-28",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Scroll-wheel now works on background of some tables\n* Changed: Open tease/author is now disabled if launch configuration option is set to 'none'\n* Added: About dialog\n* Added: Stats dialog"
                 }
             }
         },
