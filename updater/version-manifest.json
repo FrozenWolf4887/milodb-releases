@@ -220,6 +220,37 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Scroll-wheel now works on background of some tables\n* Changed: Open tease/author is now disabled if launch configuration option is set to 'none'\n* Added: About dialog\n* Added: Stats dialog"
+                },
+                "4.0.0-alpha.8": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "a4c4a63d5fa6487cc7c63fe726b441e744fd0303f8c96e6922c96a48"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "milodb": {
+                            "digest": "30f72aaa8da58b3323d7e6b78a0dee7ecbcad5394432f9469dcc63dc",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "09976f594c7f05855b81907ec9567d838959e6180db3b616912a4443"
+                        },
+                        "milodb.ver": {
+                            "digest": "c0b1f3fca541a6ed344b9c74c0d17da174bc3928befe33e8891317cf"
+                        }
+                    },
+                    "date": "2025-03-31",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Dragging the stats dialog around the screen no longer lags behind the mouse cursor\n* Changed: Improved speed of opening stats dialog\n* Changed: Show top 100 entries in stats dialog instead of 80\n* Changed: Show newest and oldest tease date in stats dialog\n* Database: Stripped duplicate page names from NYX teases\n* Database: Updated to 2024-12-31"
                 }
             }
         },
@@ -435,6 +466,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Scroll-wheel now works on background of some tables\n* Changed: Open tease/author is now disabled if launch configuration option is set to 'none'\n* Added: About dialog\n* Added: Stats dialog"
+                },
+                "4.0.0-alpha.8": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "a4c4a63d5fa6487cc7c63fe726b441e744fd0303f8c96e6922c96a48"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "09976f594c7f05855b81907ec9567d838959e6180db3b616912a4443"
+                        },
+                        "milodb.exe": {
+                            "digest": "ebc3ec72188648889e7a72721919c1a3a55c23c29ef1200ae399fc7c"
+                        },
+                        "milodb.ver": {
+                            "digest": "87a613c60fc120ee12111e3043fe4da875c0b9e106ef956d7fe3a3b1"
+                        }
+                    },
+                    "date": "2025-03-31",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Dragging the stats dialog around the screen no longer lags behind the mouse cursor\n* Changed: Improved speed of opening stats dialog\n* Changed: Show top 100 entries in stats dialog instead of 80\n* Changed: Show newest and oldest tease date in stats dialog\n* Database: Stripped duplicate page names from NYX teases\n* Database: Updated to 2024-12-31"
                 }
             }
         },
@@ -548,6 +609,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Changed: Improved consistency of error messages on command parsing\n* Database: Updated to 2024-11-30"
+                },
+                "3.11.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "785f1e12fdf3a9ba3d90164f8fe40c0ad750ff87c2f3991c48ea8e24"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "86ed6773bd16b53a44ef1f6673fedda54bf54b478546a7a381886641",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "11ef493ccdfee2d77e91566b76312b6aa753b6ede3fd53727b4a834f"
+                        },
+                        "milodb.ver": {
+                            "digest": "3ec196ab1a98a373c0e2cee6328d8ae8908ecc410c615a80be5ae8fe"
+                        }
+                    },
+                    "date": "2025-03-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform\n* Fixed: Update no longer fails when trying to delete non-existent deprecated config files\n* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp\n* Changed: Improved speed of 'stats' command\n* Changed: Included date range of database in 'stats' command\n* Changed: Updated URI to CC0 licence\n* Changed: 'sort' command can now sort by 'status', 'author', 'authorStatus', 'images', and 'uniqueImages'\n* Changed: Improved formatting for 'update list all' and 'update list variants' commands\n* Changed: Help of 'update' command now mentions the inability to TAB complete the variant name on 'update switch'\n* Database: Stripped duplicate page names from NYX teases\n* Database: Updated to 2024-12-31"
                 },
                 "3.2.0": {
                     "configFiles": {
