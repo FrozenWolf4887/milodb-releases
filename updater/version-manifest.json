@@ -251,6 +251,37 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Dragging the stats dialog around the screen no longer lags behind the mouse cursor\n* Changed: Improved speed of opening stats dialog\n* Changed: Show top 100 entries in stats dialog instead of 80\n* Changed: Show newest and oldest tease date in stats dialog\n* Database: Stripped duplicate page names from NYX teases\n* Database: Updated to 2024-12-31"
+                },
+                "4.0.0-alpha.9": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "0a10a71ded5c0b4fb0d8787f819db2ac014423abd532b8e6cbdfdf4a"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "milodb": {
+                            "digest": "243fd59bde615a78aab5de39344f0e8545f892d81f40162b3664df39",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "09976f594c7f05855b81907ec9567d838959e6180db3b616912a4443"
+                        },
+                        "milodb.ver": {
+                            "digest": "a09af4d264a16ab5ea38f0a60650ad8aaae0f009a5d39ae7e8733838"
+                        }
+                    },
+                    "date": "2025-04-16",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Log message prefixes are no longer doubled-up in log displays\n* Changed: Cells in the list panel are now aligned left/right/middle as appropriate\n* Changed: TeaseId \\(TID\\) and AuthorId \\(AID\\) are not shown by default in the list panel\n* Changed: When updating to a different variant, all change history is now shown\n* Changed: When updating, all change history is now shown with the new changes highlighted\n* Changed: Dialogs are now opened in the middle of the main window\n* Added: Columns in the list panel can now be hidden/shown with a right-click menu\n* Added: Progress dialog is displayed during a search\n* Added: Wait cursor is displayed during a search"
                 }
             }
         },
@@ -496,6 +527,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Dragging the stats dialog around the screen no longer lags behind the mouse cursor\n* Changed: Improved speed of opening stats dialog\n* Changed: Show top 100 entries in stats dialog instead of 80\n* Changed: Show newest and oldest tease date in stats dialog\n* Database: Stripped duplicate page names from NYX teases\n* Database: Updated to 2024-12-31"
+                },
+                "4.0.0-alpha.9": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "0a10a71ded5c0b4fb0d8787f819db2ac014423abd532b8e6cbdfdf4a"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "09976f594c7f05855b81907ec9567d838959e6180db3b616912a4443"
+                        },
+                        "milodb.exe": {
+                            "digest": "fc90c467429eb29072b8bef42c3153c2a2f768943c54b47739c19d3f"
+                        },
+                        "milodb.ver": {
+                            "digest": "0b32e981b7ba1e62802a3f9f4a7cd3491b9715f71d62035dd6d87d19"
+                        }
+                    },
+                    "date": "2025-04-16",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Log message prefixes are no longer doubled-up in log displays\n* Changed: Cells in the list panel are now aligned left/right/middle as appropriate\n* Changed: TeaseId \\(TID\\) and AuthorId \\(AID\\) are not shown by default in the list panel\n* Changed: When updating to a different variant, all change history is now shown\n* Changed: When updating, all change history is now shown with the new changes highlighted\n* Changed: Dialogs are now opened in the middle of the main window\n* Added: Columns in the list panel can now be hidden/shown with a right-click menu\n* Added: Progress dialog is displayed during a search\n* Added: Wait cursor is displayed during a search"
                 }
             }
         },
