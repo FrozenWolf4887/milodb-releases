@@ -1,0 +1,19 @@
+{
+    "configFiles": {
+        "0": "config.json",
+        "1": "config.json.old",
+        "2": "variables.json",
+        "3": "autoexec.txt"
+    },
+    "coreFiles": [
+        "milodb.ver",
+        "changelog.md",
+        "milodb",
+        "database.mdb",
+        "milodb-thumbs.dat"
+    ],
+    "date": "2025-04-30",
+    "format": 1,
+    "variant": "gui-linux",
+    "version": "4.0.0-alpha.10"
+}

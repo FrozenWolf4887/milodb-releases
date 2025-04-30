@@ -35,6 +35,37 @@
                     },
                     "log": "* Added: Initial release of GUI for evaluation edition"
                 },
+                "4.0.0-alpha.10": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "2824c0f8cb72308fd348e66b482c5fdc4073d601a40fa26f6a6f3ebd"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "milodb": {
+                            "digest": "909d22d3f6743d5692f7aab177648bc1712ccf17cd5e9cfe176aa336",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "d64afa356ba76673c0a4934de49dccb621e2429660048afc66800ac8"
+                        },
+                        "milodb.ver": {
+                            "digest": "2f1929511a03fba888d94775556459d6484506b9b58c5d98ef3ec4cb"
+                        }
+                    },
+                    "date": "2025-04-30",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Mouse-wheel scrolling now works reliably in all tabs of update dialog\n* Changed: Status icon shown on query panel now matches theme\n* Added: Text pages can now be selected for consistency with other panels\n* Added: List panel supports copying rows from right-click menu\n* Added: Card panel supports copying cards from right-click menu\n* Added: Text panel supports copying text from right-click menu\n* Added: About dialog now shows the amount of memory used by the application\n* Database: Recovered some missing author names and IDs\n* Database: Updated to 2025-01-29"
+                },
                 "4.0.0-alpha.2": {
                     "configFiles": {
                         "0": "config.json",
@@ -317,6 +348,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Added: Initial release of GUI for evaluation edition"
+                },
+                "4.0.0-alpha.10": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "2824c0f8cb72308fd348e66b482c5fdc4073d601a40fa26f6a6f3ebd"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "d64afa356ba76673c0a4934de49dccb621e2429660048afc66800ac8"
+                        },
+                        "milodb.exe": {
+                            "digest": "114cb10e9dc172cf4784c05782098bfbb5538ed3375ec160686ee944"
+                        },
+                        "milodb.ver": {
+                            "digest": "457dfa9cf81c5f9e88059e374ce26b71e5d960cd12fd66f1be25bdd4"
+                        }
+                    },
+                    "date": "2025-04-30",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Mouse-wheel scrolling now works reliably in all tabs of update dialog\n* Changed: Status icon shown on query panel now matches theme\n* Added: Text pages can now be selected for consistency with other panels\n* Added: List panel supports copying rows from right-click menu\n* Added: Card panel supports copying cards from right-click menu\n* Added: Text panel supports copying text from right-click menu\n* Added: About dialog now shows the amount of memory used by the application\n* Database: Recovered some missing author names and IDs\n* Database: Updated to 2025-01-29"
                 },
                 "4.0.0-alpha.2": {
                     "configFiles": {
@@ -708,6 +769,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform\n* Fixed: Update no longer fails when trying to delete non-existent deprecated config files\n* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp\n* Changed: Improved speed of 'stats' command\n* Changed: Included date range of database in 'stats' command\n* Changed: Updated URI to CC0 licence\n* Changed: 'sort' command can now sort by 'status', 'author', 'authorStatus', 'images', and 'uniqueImages'\n* Changed: Improved formatting for 'update list all' and 'update list variants' commands\n* Changed: Help of 'update' command now mentions the inability to TAB complete the variant name on 'update switch'\n* Database: Stripped duplicate page names from NYX teases\n* Database: Updated to 2024-12-31"
+                },
+                "3.12.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "4625aff739b30b2f475f1dad044ed275f0e9e2738404c97b0b29ca87"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "b57c638035cf1dd859f3a89001ee13f00035b04d45096a9d31474672",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "3fb6724c8a1f10be2dce43bf82c787791df9c632e7f9f3a4a5ea92ac"
+                        },
+                        "milodb.ver": {
+                            "digest": "e5028a71b7374f9723ac03863900276a79213ad3e38ee4c99133bd3f"
+                        }
+                    },
+                    "date": "2025-04-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: 'about' command now shows the amount of memory used by the application\n* Database: Recovered some missing author names and IDs\n* Database: Updated to 2025-01-29"
                 },
                 "3.2.0": {
                     "configFiles": {
