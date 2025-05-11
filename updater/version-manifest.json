@@ -66,6 +66,37 @@
                     },
                     "log": "* Fixed: Mouse-wheel scrolling now works reliably in all tabs of update dialog\n* Changed: Status icon shown on query panel now matches theme\n* Added: Text pages can now be selected for consistency with other panels\n* Added: List panel supports copying rows from right-click menu\n* Added: Card panel supports copying cards from right-click menu\n* Added: Text panel supports copying text from right-click menu\n* Added: About dialog now shows the amount of memory used by the application\n* Database: Recovered some missing author names and IDs\n* Database: Updated to 2025-01-29"
                 },
+                "4.0.0-alpha.11": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "0e7592483e89b29cfac5a0f97e63452d1ab8057d79f93f1dc3cfe4b9"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "milodb": {
+                            "digest": "436b0cc910c3ed7c0796b6cfed0714fb250de2966e24f2b80c9c38ed",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "d64afa356ba76673c0a4934de49dccb621e2429660048afc66800ac8"
+                        },
+                        "milodb.ver": {
+                            "digest": "50743ef6e8e89e1f68a3b1b3af6e95185ebe01a738f50158337e5f21"
+                        }
+                    },
+                    "date": "2025-05-11",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Handling of quoted text in custom launch commands\n* Added: Config dialog"
+                },
                 "4.0.0-alpha.2": {
                     "configFiles": {
                         "0": "config.json",
@@ -378,6 +409,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Mouse-wheel scrolling now works reliably in all tabs of update dialog\n* Changed: Status icon shown on query panel now matches theme\n* Added: Text pages can now be selected for consistency with other panels\n* Added: List panel supports copying rows from right-click menu\n* Added: Card panel supports copying cards from right-click menu\n* Added: Text panel supports copying text from right-click menu\n* Added: About dialog now shows the amount of memory used by the application\n* Database: Recovered some missing author names and IDs\n* Database: Updated to 2025-01-29"
+                },
+                "4.0.0-alpha.11": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "0e7592483e89b29cfac5a0f97e63452d1ab8057d79f93f1dc3cfe4b9"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "d64afa356ba76673c0a4934de49dccb621e2429660048afc66800ac8"
+                        },
+                        "milodb.exe": {
+                            "digest": "c465dccecf818d2eff21566da2cde4914be4c9fe7d410f29cb568ff8"
+                        },
+                        "milodb.ver": {
+                            "digest": "bfd7e14034b104ea3336a1e69b70c7eabb327be30d24f1ff76463612"
+                        }
+                    },
+                    "date": "2025-05-11",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Handling of quoted text in custom launch commands\n* Added: Config dialog"
                 },
                 "4.0.0-alpha.2": {
                     "configFiles": {
