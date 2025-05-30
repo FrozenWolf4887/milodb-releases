@@ -1,0 +1,21 @@
+{
+    "configFiles": {
+        "0": "config.json",
+        "1": "config.json.old",
+        "2": "variables.json",
+        "3": "autoexec.txt"
+    },
+    "coreFiles": [
+        "milodb.ver",
+        "changelog.md",
+        "milodb",
+        "milodb.exe",
+        "database.mdb",
+        "default-light.css",
+        "default-dark.css"
+    ],
+    "date": "2025-05-30",
+    "format": 1,
+    "variant": "main-windows-linux",
+    "version": "3.13.0"
+}

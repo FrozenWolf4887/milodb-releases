@@ -344,6 +344,37 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Log message prefixes are no longer doubled-up in log displays\n* Changed: Cells in the list panel are now aligned left/right/middle as appropriate\n* Changed: TeaseId \\(TID\\) and AuthorId \\(AID\\) are not shown by default in the list panel\n* Changed: When updating to a different variant, all change history is now shown\n* Changed: When updating, all change history is now shown with the new changes highlighted\n* Changed: Dialogs are now opened in the middle of the main window\n* Added: Columns in the list panel can now be hidden/shown with a right-click menu\n* Added: Progress dialog is displayed during a search\n* Added: Wait cursor is displayed during a search"
+                },
+                "4.0.0-beta.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "18a8e4e3264006ea475556a3c1c6e1c6793ded1714f08bec97ff1e6b"
+                        },
+                        "database.mdb": {
+                            "digest": "b26cf0285e36e81f16c1455c88d5b69052ba932ea0525d09d14904e3"
+                        },
+                        "milodb": {
+                            "digest": "6e799871258746b02bf747fa2d29cf0b51002aaa02473f42ef85c800",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "f13f47148fe2b71f66497f56d260e688a09bfdfdd9e03463b7dcc616"
+                        },
+                        "milodb.ver": {
+                            "digest": "956faca266a63073d676c71c6fd922553f932f467c69eba06c2422da"
+                        }
+                    },
+                    "date": "2025-05-30",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Suggestion text in the query panel is now blank when the cursor is after an error\n* Fixed: Expanded text in query panel is no longer cut off prematurely when there is an error within a variable\n* Fixed: Error underline in query panel will now highlight the variable if there is an error in the variable\n* Fixed: Error underline in query panel is now positioned correctly after variable expansion\n* Added: Configuration tab for variables\n* Added: Word count as a column in the list panel\n* Added: Expansion text shows error underline when there is an error in a variable\n* Changed: Expansion text now word-wraps when it is wider than the window\n* Changed: Query text is now a variable width font\n* Changed: Improved theme consistency between platforms\n* Database: Updated to 2025-02-27"
                 }
             }
         },
@@ -679,6 +710,36 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Log message prefixes are no longer doubled-up in log displays\n* Changed: Cells in the list panel are now aligned left/right/middle as appropriate\n* Changed: TeaseId \\(TID\\) and AuthorId \\(AID\\) are not shown by default in the list panel\n* Changed: When updating to a different variant, all change history is now shown\n* Changed: When updating, all change history is now shown with the new changes highlighted\n* Changed: Dialogs are now opened in the middle of the main window\n* Added: Columns in the list panel can now be hidden/shown with a right-click menu\n* Added: Progress dialog is displayed during a search\n* Added: Wait cursor is displayed during a search"
+                },
+                "4.0.0-beta.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "18a8e4e3264006ea475556a3c1c6e1c6793ded1714f08bec97ff1e6b"
+                        },
+                        "database.mdb": {
+                            "digest": "b26cf0285e36e81f16c1455c88d5b69052ba932ea0525d09d14904e3"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "f13f47148fe2b71f66497f56d260e688a09bfdfdd9e03463b7dcc616"
+                        },
+                        "milodb.exe": {
+                            "digest": "a7cf5b4b7a7a0537295ffd147392c6b9c25ba740233f5367501b67db"
+                        },
+                        "milodb.ver": {
+                            "digest": "b35adff9804a0750d3c319ba100787857da5a76a87dfc44a8accc2be"
+                        }
+                    },
+                    "date": "2025-05-30",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Suggestion text in the query panel is now blank when the cursor is after an error\n* Fixed: Expanded text in query panel is no longer cut off prematurely when there is an error within a variable\n* Fixed: Error underline in query panel will now highlight the variable if there is an error in the variable\n* Fixed: Error underline in query panel is now positioned correctly after variable expansion\n* Added: Configuration tab for variables\n* Added: Word count as a column in the list panel\n* Added: Expansion text shows error underline when there is an error in a variable\n* Changed: Expansion text now word-wraps when it is wider than the window\n* Changed: Query text is now a variable width font\n* Changed: Improved theme consistency between platforms\n* Database: Updated to 2025-02-27"
                 }
             }
         },
@@ -868,6 +929,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Added: 'about' command now shows the amount of memory used by the application\n* Database: Recovered some missing author names and IDs\n* Database: Updated to 2025-01-29"
+                },
+                "3.13.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "fcfcf162ce5c76fb435ab135ecea46349aaf7fbc572ec438ebf0088d"
+                        },
+                        "database.mdb": {
+                            "digest": "b26cf0285e36e81f16c1455c88d5b69052ba932ea0525d09d14904e3"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "0d4a95aa083718ef9795c650eaab448500e0dd5f005894be64cdf3b1",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "6c2c71dfc17cb4cf389012cf9edb5fa02222f73c6b638696e3547632"
+                        },
+                        "milodb.ver": {
+                            "digest": "356ef5c69c4f2bbea62ae68b9aaae69721e6548e108c04e03c6a25fa"
+                        }
+                    },
+                    "date": "2025-05-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Handling of quoted text in custom launch commands\n* Added: Sort key for word count\n* Added: Add 'debug' command for diagnosing launch issues\n* Database: Updated to 2025-02-27"
                 },
                 "3.2.0": {
                     "configFiles": {
