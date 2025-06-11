@@ -1,0 +1,19 @@
+{
+    "configFiles": {
+        "0": "config.json",
+        "1": "config.json.old",
+        "2": "variables.json",
+        "3": "autoexec.txt"
+    },
+    "coreFiles": [
+        "milodb.ver",
+        "changelog.md",
+        "milodb.exe",
+        "database.mdb",
+        "milodb-thumbs.dat"
+    ],
+    "date": "2025-03-28",
+    "format": 1,
+    "variant": "gui-windows",
+    "version": "4.0.0-alpha.7"
+}

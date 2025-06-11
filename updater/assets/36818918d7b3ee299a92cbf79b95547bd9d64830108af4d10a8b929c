@@ -1,0 +1,21 @@
+{
+    "format": 1,
+    "variant": "main-windows-linux",
+    "version": "3.9.0",
+    "date": "2025-01-31",
+    "coreFiles": [
+        "changelog.md",
+        "database.mdb",
+        "default-light.css",
+        "default-dark.css",
+        "milodb",
+        "milodb.exe",
+        "milodb.ver"
+    ],
+    "configFiles": {
+        "0": "config.json",
+        "1": "config.json.old",
+        "2": "variables.json",
+        "3": "autoexec.txt"
+    }
+}

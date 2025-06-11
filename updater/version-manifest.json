@@ -1,0 +1,1263 @@
+{
+    "format": 2,
+    "variants": {
+        "gui-linux": {
+            "summary": "Experimental MiloDB GUI client application for Linux",
+            "versions": {
+                "4.0.0-alpha.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "2f36971574ac3593098f607b9fb70d09987038742e64bf5d51c203bc"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "ae2941313c3d37ec80e7e82603f5293c6fd84ec97e6ad0466fc88641",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "efc466750603fb3fb9657e6e9cf1d91a743922342a56d17067a4978e"
+                        }
+                    },
+                    "date": "2025-03-09",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Added: Initial release of GUI for evaluation edition"
+                },
+                "4.0.0-alpha.10": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "2824c0f8cb72308fd348e66b482c5fdc4073d601a40fa26f6a6f3ebd"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "milodb": {
+                            "digest": "909d22d3f6743d5692f7aab177648bc1712ccf17cd5e9cfe176aa336",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "d64afa356ba76673c0a4934de49dccb621e2429660048afc66800ac8"
+                        },
+                        "milodb.ver": {
+                            "digest": "2f1929511a03fba888d94775556459d6484506b9b58c5d98ef3ec4cb"
+                        }
+                    },
+                    "date": "2025-04-30",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Mouse-wheel scrolling now works reliably in all tabs of update dialog\n* Changed: Status icon shown on query panel now matches theme\n* Added: Text pages can now be selected for consistency with other panels\n* Added: List panel supports copying rows from right-click menu\n* Added: Card panel supports copying cards from right-click menu\n* Added: Text panel supports copying text from right-click menu\n* Added: About dialog now shows the amount of memory used by the application\n* Database: Recovered some missing author names and IDs\n* Database: Updated to 2025-01-29"
+                },
+                "4.0.0-alpha.11": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "0e7592483e89b29cfac5a0f97e63452d1ab8057d79f93f1dc3cfe4b9"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "milodb": {
+                            "digest": "436b0cc910c3ed7c0796b6cfed0714fb250de2966e24f2b80c9c38ed",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "d64afa356ba76673c0a4934de49dccb621e2429660048afc66800ac8"
+                        },
+                        "milodb.ver": {
+                            "digest": "50743ef6e8e89e1f68a3b1b3af6e95185ebe01a738f50158337e5f21"
+                        }
+                    },
+                    "date": "2025-05-11",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Handling of quoted text in custom launch commands\n* Added: Config dialog"
+                },
+                "4.0.0-alpha.2": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "d1b4fcbab8696c37ff894cf7bcd08ac6e511cf2c12d3f635973cf725"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "0928bee2f1520d1f4fd27b624c9b8785fee5ae1f91250c13bed98dd4",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "e55049309a868b337dbd65bb829700f5542270eb1e6102d6fe19005d"
+                        }
+                    },
+                    "date": "2025-03-10",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Windows - Scrolling the card panel up and down with the scroll bar crashed the application"
+                },
+                "4.0.0-alpha.3": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "4998d91d6c7ffcccb4af5a390a6c553f32a4d8d8bb8378fa5eec98f7"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "9bcaffc185103a4777041b76748f5fe23e77fae4cebc11a9ab0101e7",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "2db4a8c68de67eec47a5879a26cb07185226340ebe1547370d7afc75"
+                        }
+                    },
+                    "date": "2025-03-13",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform\n* Fixed: Update no longer fails when trying to delete non-existant deprecated config files\n* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp\n* Added: Warn user when trying to update/switch to a variant with an unsupported main executable\n* Added: Scroll selected tease into view in other panels if not visible\n* Added: Popup menu to open tease/author profile"
+                },
+                "4.0.0-alpha.4": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "c1f33a0e851d97f0f7efac726e31a467e752ab239b8da18fff0b8f15"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "56c85bed0272f45d54e122bbc3ec6ed5f80b13e24d55b8ecd7374bb6",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "2369bcff454d99b5c04664e80a7cf66dfd03349da42c54cf07db0b14"
+                        }
+                    },
+                    "date": "2025-03-14",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Changed: 'Open Author...' in popup menu will be disabled if author is not known\n* Added: Popup menu now includes opening of a tease author's tease list\n* Added: Popup menu now includes copying of tease and author URIs"
+                },
+                "4.0.0-alpha.5": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "9421f2ed83686536c27fad6b37df342e26f7790fea691f2bb295ce1d"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "ba8b35f9923ac88d946ef5136941c3fcd24bfb7af2fcb7b9a4123113",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "ec3110f8c095b9c6d3d99598f55aaa7e19e6dc9b97f79fcd87d3bee6"
+                        }
+                    },
+                    "date": "2025-03-16",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Changed: Upgraded setuptools package to try and avoid Microsoft Defender false-positive trojan detection"
+                },
+                "4.0.0-alpha.6": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "f46dd45e70486972ad0e2eff98e3856521818731fb4660dbc2d9dc26"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "ea237c3d5cc81110c9327ae45e57a3633c30993030cadaec0659ecb4",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "c223ec4c70cb84305eca63c4c758a396e03d48acb8d0a7394982c7a5"
+                        }
+                    },
+                    "date": "2025-03-21",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Changed: Replaced text with icons for TOTM and tease/author status in list panel\n* Changed: Reordered columns in list panel\n* Added: Sort by any column in the list panel\n* Added: Highlight which list column is used for sorting\n* Added: Invert sort direction when clicking on list header again"
+                },
+                "4.0.0-alpha.7": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "ed32c613cfebee3e77129913a9aac1ec5ad0a2457e099a76961596bf"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb": {
+                            "digest": "4801b976d3043ade7cadfd33e270f37de9c38d2ad38c5c166ab19233",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.ver": {
+                            "digest": "761d5ced232ed89afbf24faa41bb2cc033ae0122fec7d449c536b190"
+                        }
+                    },
+                    "date": "2025-03-28",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Scroll-wheel now works on background of some tables\n* Changed: Open tease/author is now disabled if launch configuration option is set to 'none'\n* Added: About dialog\n* Added: Stats dialog"
+                },
+                "4.0.0-alpha.8": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "a4c4a63d5fa6487cc7c63fe726b441e744fd0303f8c96e6922c96a48"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "milodb": {
+                            "digest": "30f72aaa8da58b3323d7e6b78a0dee7ecbcad5394432f9469dcc63dc",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "09976f594c7f05855b81907ec9567d838959e6180db3b616912a4443"
+                        },
+                        "milodb.ver": {
+                            "digest": "c0b1f3fca541a6ed344b9c74c0d17da174bc3928befe33e8891317cf"
+                        }
+                    },
+                    "date": "2025-03-31",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Dragging the stats dialog around the screen no longer lags behind the mouse cursor\n* Changed: Improved speed of opening stats dialog\n* Changed: Show top 100 entries in stats dialog instead of 80\n* Changed: Show newest and oldest tease date in stats dialog\n* Database: Stripped duplicate page names from NYX teases\n* Database: Updated to 2024-12-31"
+                },
+                "4.0.0-alpha.9": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "0a10a71ded5c0b4fb0d8787f819db2ac014423abd532b8e6cbdfdf4a"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "milodb": {
+                            "digest": "243fd59bde615a78aab5de39344f0e8545f892d81f40162b3664df39",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "09976f594c7f05855b81907ec9567d838959e6180db3b616912a4443"
+                        },
+                        "milodb.ver": {
+                            "digest": "a09af4d264a16ab5ea38f0a60650ad8aaae0f009a5d39ae7e8733838"
+                        }
+                    },
+                    "date": "2025-04-16",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Log message prefixes are no longer doubled-up in log displays\n* Changed: Cells in the list panel are now aligned left/right/middle as appropriate\n* Changed: TeaseId \\(TID\\) and AuthorId \\(AID\\) are not shown by default in the list panel\n* Changed: When updating to a different variant, all change history is now shown\n* Changed: When updating, all change history is now shown with the new changes highlighted\n* Changed: Dialogs are now opened in the middle of the main window\n* Added: Columns in the list panel can now be hidden/shown with a right-click menu\n* Added: Progress dialog is displayed during a search\n* Added: Wait cursor is displayed during a search"
+                },
+                "4.0.0-beta.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "18a8e4e3264006ea475556a3c1c6e1c6793ded1714f08bec97ff1e6b"
+                        },
+                        "database.mdb": {
+                            "digest": "b26cf0285e36e81f16c1455c88d5b69052ba932ea0525d09d14904e3"
+                        },
+                        "milodb": {
+                            "digest": "6e799871258746b02bf747fa2d29cf0b51002aaa02473f42ef85c800",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "f13f47148fe2b71f66497f56d260e688a09bfdfdd9e03463b7dcc616"
+                        },
+                        "milodb.ver": {
+                            "digest": "956faca266a63073d676c71c6fd922553f932f467c69eba06c2422da"
+                        }
+                    },
+                    "date": "2025-05-30",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Suggestion text in the query panel is now blank when the cursor is after an error\n* Fixed: Expanded text in query panel is no longer cut off prematurely when there is an error within a variable\n* Fixed: Error underline in query panel will now highlight the variable if there is an error in the variable\n* Fixed: Error underline in query panel is now positioned correctly after variable expansion\n* Added: Configuration tab for variables\n* Added: Word count as a column in the list panel\n* Added: Expansion text shows error underline when there is an error in a variable\n* Changed: Expansion text now word-wraps when it is wider than the window\n* Changed: Query text is now a variable width font\n* Changed: Improved theme consistency between platforms\n* Database: Updated to 2025-02-27"
+                }
+            }
+        },
+        "gui-windows": {
+            "summary": "Experimental MiloDB GUI client application for Windows",
+            "versions": {
+                "4.0.0-alpha.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "2f36971574ac3593098f607b9fb70d09987038742e64bf5d51c203bc"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "7a619bcba7f98a8268bda55484c0a7913b3b355656f6b29a4cca4b62"
+                        },
+                        "milodb.ver": {
+                            "digest": "59c6743b5bedcfb4427b1e600c9f40856c4aa82fa23020411a118da0"
+                        }
+                    },
+                    "date": "2025-03-09",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: Initial release of GUI for evaluation edition"
+                },
+                "4.0.0-alpha.10": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "2824c0f8cb72308fd348e66b482c5fdc4073d601a40fa26f6a6f3ebd"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "d64afa356ba76673c0a4934de49dccb621e2429660048afc66800ac8"
+                        },
+                        "milodb.exe": {
+                            "digest": "114cb10e9dc172cf4784c05782098bfbb5538ed3375ec160686ee944"
+                        },
+                        "milodb.ver": {
+                            "digest": "457dfa9cf81c5f9e88059e374ce26b71e5d960cd12fd66f1be25bdd4"
+                        }
+                    },
+                    "date": "2025-04-30",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Mouse-wheel scrolling now works reliably in all tabs of update dialog\n* Changed: Status icon shown on query panel now matches theme\n* Added: Text pages can now be selected for consistency with other panels\n* Added: List panel supports copying rows from right-click menu\n* Added: Card panel supports copying cards from right-click menu\n* Added: Text panel supports copying text from right-click menu\n* Added: About dialog now shows the amount of memory used by the application\n* Database: Recovered some missing author names and IDs\n* Database: Updated to 2025-01-29"
+                },
+                "4.0.0-alpha.11": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "0e7592483e89b29cfac5a0f97e63452d1ab8057d79f93f1dc3cfe4b9"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "d64afa356ba76673c0a4934de49dccb621e2429660048afc66800ac8"
+                        },
+                        "milodb.exe": {
+                            "digest": "c465dccecf818d2eff21566da2cde4914be4c9fe7d410f29cb568ff8"
+                        },
+                        "milodb.ver": {
+                            "digest": "bfd7e14034b104ea3336a1e69b70c7eabb327be30d24f1ff76463612"
+                        }
+                    },
+                    "date": "2025-05-11",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Handling of quoted text in custom launch commands\n* Added: Config dialog"
+                },
+                "4.0.0-alpha.2": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "d1b4fcbab8696c37ff894cf7bcd08ac6e511cf2c12d3f635973cf725"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "7f5d06b3c72b7491400df6edc1f0be63d7a7eeb62f5370092a5d710d"
+                        },
+                        "milodb.ver": {
+                            "digest": "8b9048dbe25ce12ded9061d24db3e1f1014bac29ab70796f4118aba3"
+                        }
+                    },
+                    "date": "2025-03-10",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Windows - Scrolling the card panel up and down with the scroll bar crashed the application"
+                },
+                "4.0.0-alpha.3": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "4998d91d6c7ffcccb4af5a390a6c553f32a4d8d8bb8378fa5eec98f7"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "341d8e5a03a586e9abf1b81cac09a3f4422ebfd94874897a28346a3e"
+                        },
+                        "milodb.ver": {
+                            "digest": "4813e8819115d828ede83334d6e4e2ebbd41a0868fa7b917cbc2aead"
+                        }
+                    },
+                    "date": "2025-03-13",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform\n* Fixed: Update no longer fails when trying to delete non-existant deprecated config files\n* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp\n* Added: Warn user when trying to update/switch to a variant with an unsupported main executable\n* Added: Scroll selected tease into view in other panels if not visible\n* Added: Popup menu to open tease/author profile"
+                },
+                "4.0.0-alpha.4": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "c1f33a0e851d97f0f7efac726e31a467e752ab239b8da18fff0b8f15"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "5c39f9c37a414c61f678b2571134014c87ed18f64c79691349aadfc0"
+                        },
+                        "milodb.ver": {
+                            "digest": "5f8ad7e9debed5cbd8154dee4921a79794bd581a29f6759bdadf3a70"
+                        }
+                    },
+                    "date": "2025-03-14",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: 'Open Author...' in popup menu will be disabled if author is not known\n* Added: Popup menu now includes opening of a tease author's tease list\n* Added: Popup menu now includes copying of tease and author URIs"
+                },
+                "4.0.0-alpha.5": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "9421f2ed83686536c27fad6b37df342e26f7790fea691f2bb295ce1d"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "963741dbdbdcc954f9d13a47565c107f8467fa41ee3513441979ed90"
+                        },
+                        "milodb.ver": {
+                            "digest": "150c820c7cc83782733220b535545570b1ed0132de53d5f822929a4f"
+                        }
+                    },
+                    "date": "2025-03-16",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Upgraded setuptools package to try and avoid Microsoft Defender false-positive trojan detection"
+                },
+                "4.0.0-alpha.6": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "f46dd45e70486972ad0e2eff98e3856521818731fb4660dbc2d9dc26"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "8292a332f93a642eaf151e1ef8d46aea4d65a4ba793d153b1c2a0445"
+                        },
+                        "milodb.ver": {
+                            "digest": "814188ee3cf37a9d7589f299d9a54ba8f6989ceef02df85675471a22"
+                        }
+                    },
+                    "date": "2025-03-21",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Replaced text with icons for TOTM and tease/author status in list panel\n* Changed: Reordered columns in list panel\n* Added: Sort by any column in the list panel\n* Added: Highlight which list column is used for sorting\n* Added: Invert sort direction when clicking on list header again"
+                },
+                "4.0.0-alpha.7": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "ed32c613cfebee3e77129913a9aac1ec5ad0a2457e099a76961596bf"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "18746831a57fe13f29aea7e71d7c671f6332f428c2a50328cb6eaed5"
+                        },
+                        "milodb.exe": {
+                            "digest": "d9c6f20af3556e4cfbdf156ba8caabbfa8d913d4d053a24ef4439e12"
+                        },
+                        "milodb.ver": {
+                            "digest": "56ce0f9709a47f1c0ac02670aa5cc227f59acfcfc0987e1f9a3e37e2"
+                        }
+                    },
+                    "date": "2025-03-28",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Scroll-wheel now works on background of some tables\n* Changed: Open tease/author is now disabled if launch configuration option is set to 'none'\n* Added: About dialog\n* Added: Stats dialog"
+                },
+                "4.0.0-alpha.8": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "a4c4a63d5fa6487cc7c63fe726b441e744fd0303f8c96e6922c96a48"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "09976f594c7f05855b81907ec9567d838959e6180db3b616912a4443"
+                        },
+                        "milodb.exe": {
+                            "digest": "ebc3ec72188648889e7a72721919c1a3a55c23c29ef1200ae399fc7c"
+                        },
+                        "milodb.ver": {
+                            "digest": "87a613c60fc120ee12111e3043fe4da875c0b9e106ef956d7fe3a3b1"
+                        }
+                    },
+                    "date": "2025-03-31",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Dragging the stats dialog around the screen no longer lags behind the mouse cursor\n* Changed: Improved speed of opening stats dialog\n* Changed: Show top 100 entries in stats dialog instead of 80\n* Changed: Show newest and oldest tease date in stats dialog\n* Database: Stripped duplicate page names from NYX teases\n* Database: Updated to 2024-12-31"
+                },
+                "4.0.0-alpha.9": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "0a10a71ded5c0b4fb0d8787f819db2ac014423abd532b8e6cbdfdf4a"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "09976f594c7f05855b81907ec9567d838959e6180db3b616912a4443"
+                        },
+                        "milodb.exe": {
+                            "digest": "fc90c467429eb29072b8bef42c3153c2a2f768943c54b47739c19d3f"
+                        },
+                        "milodb.ver": {
+                            "digest": "0b32e981b7ba1e62802a3f9f4a7cd3491b9715f71d62035dd6d87d19"
+                        }
+                    },
+                    "date": "2025-04-16",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Log message prefixes are no longer doubled-up in log displays\n* Changed: Cells in the list panel are now aligned left/right/middle as appropriate\n* Changed: TeaseId \\(TID\\) and AuthorId \\(AID\\) are not shown by default in the list panel\n* Changed: When updating to a different variant, all change history is now shown\n* Changed: When updating, all change history is now shown with the new changes highlighted\n* Changed: Dialogs are now opened in the middle of the main window\n* Added: Columns in the list panel can now be hidden/shown with a right-click menu\n* Added: Progress dialog is displayed during a search\n* Added: Wait cursor is displayed during a search"
+                },
+                "4.0.0-beta.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "18a8e4e3264006ea475556a3c1c6e1c6793ded1714f08bec97ff1e6b"
+                        },
+                        "database.mdb": {
+                            "digest": "b26cf0285e36e81f16c1455c88d5b69052ba932ea0525d09d14904e3"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "f13f47148fe2b71f66497f56d260e688a09bfdfdd9e03463b7dcc616"
+                        },
+                        "milodb.exe": {
+                            "digest": "a7cf5b4b7a7a0537295ffd147392c6b9c25ba740233f5367501b67db"
+                        },
+                        "milodb.ver": {
+                            "digest": "b35adff9804a0750d3c319ba100787857da5a76a87dfc44a8accc2be"
+                        }
+                    },
+                    "date": "2025-05-30",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Suggestion text in the query panel is now blank when the cursor is after an error\n* Fixed: Expanded text in query panel is no longer cut off prematurely when there is an error within a variable\n* Fixed: Error underline in query panel will now highlight the variable if there is an error in the variable\n* Fixed: Error underline in query panel is now positioned correctly after variable expansion\n* Added: Configuration tab for variables\n* Added: Word count as a column in the list panel\n* Added: Expansion text shows error underline when there is an error in a variable\n* Changed: Expansion text now word-wraps when it is wider than the window\n* Changed: Query text is now a variable width font\n* Changed: Improved theme consistency between platforms\n* Database: Updated to 2025-02-27"
+                }
+            }
+        },
+        "main-windows-linux": {
+            "summary": "Main MiloDB client application for Windows and Linux",
+            "versions": {
+                "3.0.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "f6ddcf699aeba2b756f742e32b1cf0ceceb5ab5b29d15a69ff37217c"
+                        },
+                        "database.mdb": {
+                            "digest": "2d146738b1f00dc4084a05ba5f001db4274c75af7168602bc900e12d"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "ed649e4628666cced6e316cfee05868a4642284be9b4b8d01a628428",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "f4f2147e144fcea4e1195035f176f6b6f6274412c7ef5662be2a6150"
+                        },
+                        "milodb.ver": {
+                            "digest": "aac8e91b5067e6d203e18224317a8091841cf72bfe81efa87083b508"
+                        }
+                    },
+                    "date": "2024-04-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: 'update' command to perform self updates\n* Database: Updated to 2024-01-30"
+                },
+                "3.1.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "3bc39eb67c94c854edf9ce91f4f3b1b88d8c21ed2e0ae077e9928f6c"
+                        },
+                        "database.mdb": {
+                            "digest": "b11c5ffbf531406dd0e736c2296f89be0bc8b594b365d37e3d1bdb72"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "e1ce91c95c7f3d232e79042f25419def2771c6b4445d876c1aeb0e5d",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "83b809c5296bfd77b0f8cd4d1634df9bbb7a90dc4b3a02a95005b3ec"
+                        },
+                        "milodb.ver": {
+                            "digest": "e1b2c5e01ea48e3e5afadb7303253d12d2b00c18fc22f59428be4ff2"
+                        }
+                    },
+                    "date": "2024-05-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Help text of 'update' command had rogue linefeed and full stop\n* Changed: 'query' command can now match against partial dates\n* Changed: 'update' command re-uses remote connections\n* Changed: 'update' command verifies integrity of downloaded assets\n* Database: Updated to 2024-02-28"
+                },
+                "3.10.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "b2e030580455de2b3a5603b65e97eb0b972fd45bead4782a212ac51b"
+                        },
+                        "database.mdb": {
+                            "digest": "69b68f8dd2e63ad53d37ff810932787100d890a874bbad855f3f2526"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "53bbe4e9638e402dfef14bab3a152a3f115ffc23079af1ca14b93447",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "ed9536658e4820e2d285987087c9a1b0411181bc8e32c8a4fcd265b8"
+                        },
+                        "milodb.ver": {
+                            "digest": "6d714312168b3f4ae28e95cbae8784dad77887ea948fc122016be342"
+                        }
+                    },
+                    "date": "2025-02-28",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Improved consistency of error messages on command parsing\n* Database: Updated to 2024-11-30"
+                },
+                "3.11.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "785f1e12fdf3a9ba3d90164f8fe40c0ad750ff87c2f3991c48ea8e24"
+                        },
+                        "database.mdb": {
+                            "digest": "9cc8108d0e1c55b87cb6f3c293f86b05648abc4730a67ff5c77ecb60"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "86ed6773bd16b53a44ef1f6673fedda54bf54b478546a7a381886641",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "11ef493ccdfee2d77e91566b76312b6aa753b6ede3fd53727b4a834f"
+                        },
+                        "milodb.ver": {
+                            "digest": "3ec196ab1a98a373c0e2cee6328d8ae8908ecc410c615a80be5ae8fe"
+                        }
+                    },
+                    "date": "2025-03-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform\n* Fixed: Update no longer fails when trying to delete non-existent deprecated config files\n* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp\n* Changed: Improved speed of 'stats' command\n* Changed: Included date range of database in 'stats' command\n* Changed: Updated URI to CC0 licence\n* Changed: 'sort' command can now sort by 'status', 'author', 'authorStatus', 'images', and 'uniqueImages'\n* Changed: Improved formatting for 'update list all' and 'update list variants' commands\n* Changed: Help of 'update' command now mentions the inability to TAB complete the variant name on 'update switch'\n* Database: Stripped duplicate page names from NYX teases\n* Database: Updated to 2024-12-31"
+                },
+                "3.12.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "4625aff739b30b2f475f1dad044ed275f0e9e2738404c97b0b29ca87"
+                        },
+                        "database.mdb": {
+                            "digest": "9b1dfc5e23a94add29fd1d06a7fe08411df5da39737d4e8d987182ae"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "b57c638035cf1dd859f3a89001ee13f00035b04d45096a9d31474672",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "3fb6724c8a1f10be2dce43bf82c787791df9c632e7f9f3a4a5ea92ac"
+                        },
+                        "milodb.ver": {
+                            "digest": "e5028a71b7374f9723ac03863900276a79213ad3e38ee4c99133bd3f"
+                        }
+                    },
+                    "date": "2025-04-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: 'about' command now shows the amount of memory used by the application\n* Database: Recovered some missing author names and IDs\n* Database: Updated to 2025-01-29"
+                },
+                "3.13.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "fcfcf162ce5c76fb435ab135ecea46349aaf7fbc572ec438ebf0088d"
+                        },
+                        "database.mdb": {
+                            "digest": "b26cf0285e36e81f16c1455c88d5b69052ba932ea0525d09d14904e3"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "0d4a95aa083718ef9795c650eaab448500e0dd5f005894be64cdf3b1",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "6c2c71dfc17cb4cf389012cf9edb5fa02222f73c6b638696e3547632"
+                        },
+                        "milodb.ver": {
+                            "digest": "356ef5c69c4f2bbea62ae68b9aaae69721e6548e108c04e03c6a25fa"
+                        }
+                    },
+                    "date": "2025-05-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Handling of quoted text in custom launch commands\n* Added: Sort key for word count\n* Added: Add 'debug' command for diagnosing launch issues\n* Database: Updated to 2025-02-27"
+                },
+                "3.2.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "7c940f99dbecbac157c5379f48698571998805a22b91a5a200b0f16f"
+                        },
+                        "database.mdb": {
+                            "digest": "a960e09b491dca8a0c8a5e705f2cb6b9c815666145c75838084e3322"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "a12a52e8cb8d6317cc2a77efe1a85e0aa30b0c50c60397fecdb7aabb",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "838eba0931b7699e1b161fd5c3a6a9a1533b94be0b16f12a49a47e44"
+                        },
+                        "milodb.ver": {
+                            "digest": "2acb4c33ceff16e792517ae4cafe5596208a571c322f2f20288ec133"
+                        }
+                    },
+                    "date": "2024-06-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: 'query' command operator 'not' now has higher precedence as was originally intended\n* Fixed: Unit test failure on Windows due to inability to delete read-only files\n* Added: 'config' command to view config entries at runtime\n* Changed: 'update' command will prompt and wait for user response if there is any error during the update\n* Database: Updated to 2024-03-30"
+                },
+                "3.3.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "3976fb2b16acccd6f7edeb2d00c8658a2be394a56a72c7687c941349"
+                        },
+                        "database.mdb": {
+                            "digest": "04699105ac56b82ab2cd687244fbe8f0e32742bbe694a728e02da321"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "82f10295e003f4769c4262b373ed489247115ef954e7c0470f1f6d5c",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "2c48888d2c3ee3a2922bd67bc1124860bccb4d4499f41c62e97cda51"
+                        },
+                        "milodb.ver": {
+                            "digest": "39b558e108b8538d5a1c57db50bed8039d11a40afdf49f7ab10fc202"
+                        }
+                    },
+                    "date": "2024-07-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: 'about' command to show system info and forum links\n* Added: 'config purge' subcommand to purge redundant entries from the configuration file\n* Changed: Replaced pip requirements-{windows,linux}.txt with requirements-{run,build,develop}.txt\n* Database: Replaced non-breaking spaces with regular spaces in tease text\n* Database: Updated to 2024-04-30"
+                },
+                "3.4.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "7a4324f1a9cbbc1048e7a51c1bb275ccac3b48ce985b111882f9045a"
+                        },
+                        "database.mdb": {
+                            "digest": "a08bd617dbf0aaa2b799442fa68b599d650ee847bbaa2fa23046da67"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "ae5366328e5cdbd9a657c1b285f110d5e241929a36737689383892e9",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "f8fd5d06db9264172f99089f049dcb7ee692b525f4b0f90ec3dd0a34"
+                        },
+                        "milodb.ver": {
+                            "digest": "fd8cc3b06a8949ecc7a6d956fbec8e46bcaebeb31fc434fc5738e2e2"
+                        }
+                    },
+                    "date": "2024-08-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: 'config set' subcommand to set entries at runtime\n* Added: 'config edit' subcommand to edit entries at runtime\n* Added: 'config reset' subcommand to reset entries at runtime\n* Database: Sorted tags alphabetically\n* Database: Replaced ambiguous punctuation with standard punctuation\n* Database: Updated to 2024-05-31"
+                },
+                "3.5.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "53ddaf07614471f5ce325eea0bf525e40920aa01cc649d4bdb0b4ff0"
+                        },
+                        "database.mdb": {
+                            "digest": "d05f88be66c5f5e308c360fe4895e07f9cb62d6eaa6e0aad154ad4cf"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "ca1ca2b253b1cab7d15c8bb895c4b68dcd50ec6ac8e7ebd54e7c398e",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "bc21ffc8f3e63a0901e9396b9025769778e34dce1904066b852c897a"
+                        },
+                        "milodb.ver": {
+                            "digest": "ac3a83193156ebc485287972616961989d9faa5242fc048688876039"
+                        }
+                    },
+                    "date": "2024-09-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: Automatic migration to newer configuration versions\n* Changed: Split launch options into platform specific groups\n* Database: Updated to 2024-06-30"
+                },
+                "3.6.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "9e7565cdc265a9a710fe7d966de22376a70e7a45add7c4218356a7d1"
+                        },
+                        "database.mdb": {
+                            "digest": "69d9c82ee1437a44e00b769fa949632866e4828ce570758db898c044"
+                        },
+                        "default.css": {
+                            "digest": "c298b328c4e72dbadc23df32c40fd0dc437747102c85a96f5efd863c"
+                        },
+                        "milodb": {
+                            "digest": "1f8f99f0bf49739cfdbc1fc5da43a6711d943a6c252fda9ead7fb03e",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "dabc4271997b888cf1cf0d43fa465f6391b837ced305afb558fd35d3"
+                        },
+                        "milodb.ver": {
+                            "digest": "ce920820149f650af903d5f40fd397507aced6b423ef83f5d7a410fb"
+                        }
+                    },
+                    "date": "2024-10-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Database format updated\n* Database: Updated to 2024-07-30"
+                },
+                "3.7.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "c7af848b5168cdb3f3a5f4a5cea8dd4785f61617f88b32720c059414"
+                        },
+                        "database.mdb": {
+                            "digest": "8809c244bd380faddba628d905d063508bdfb0998e51bde88747b800"
+                        },
+                        "default-dark.css": {
+                            "digest": "294d12d9ab91f0ca657a098e233d5e30b5b8ec07fd1d9e21419b9067"
+                        },
+                        "default-light.css": {
+                            "digest": "4703d9f8929d52876ae567d66d16c88a411e3cf74cf2ce9e96d57c86"
+                        },
+                        "milodb": {
+                            "digest": "4294e269aa9abf2e32242b63c3b633a321c14ddaa53eb7e150dc1531",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "96e1678368b95240f5c70d6f5a424e8df7714fa2757a12eebffbdbc3"
+                        },
+                        "milodb.ver": {
+                            "digest": "e3320c791796f5fd55186a300d639d659c19bc4bda7d5a8309840cac"
+                        }
+                    },
+                    "date": "2024-11-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Matched fields 'status' and 'authorStatus' were associated with the wrong tease field\n* Added: Dark themed CSS for 'browse' and 'browseall' commands\n* Changed: Removed CSS colour configuration from config file and moved into CSS file\n* Database: Updated to 2024-08-29"
+                },
+                "3.8.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "abf72ff74b72fece4e8d3d8c3336ae5455ab5a27bcc37584ef6206c0"
+                        },
+                        "database.mdb": {
+                            "digest": "2b2e942e2e3a87e1b828d0dec0646b00cdd81fe2e23179ef45cc2b31"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "40166dee8f12fd50c8db6eaaefba3714f788214d9ad44f6b17bdc5ce",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "3ada0f187283e2f2fcb0884302ab14323b7447fd21db909fe4673336"
+                        },
+                        "milodb.ver": {
+                            "digest": "53f5aab18ac8b70142603f2a92667732bb90fdebfdfe946cd44ff7de"
+                        }
+                    },
+                    "date": "2024-12-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: 'unknown' author ID shown in browse summary had wrong colour in default-dark.css\n* Changed: Upgraded to Python 3.12\n* Changed: Fortified update fetches by handling incomplete reads and URI redirections\n* Database: Updated to 2024-09-30"
+                },
+                "3.9.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "d44cf007e4535019cbc795a66fbf4f3301557647a6c0af633ee4a770"
+                        },
+                        "database.mdb": {
+                            "digest": "5ccb4d898c605a5a2aadec9bf9dffc3f63e2048a94b0e98552c68159"
+                        },
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "f23366d39b66b13d8e3d0067ac09cf4c1b867e3e0a10c43f5b0a001c",
+                            "exe": true
+                        },
+                        "milodb.exe": {
+                            "digest": "0f9df5939b2af32b2ed50b535a9ca78c49bdc0f2634e2cdee05e3ec0"
+                        },
+                        "milodb.ver": {
+                            "digest": "36818918d7b3ee299a92cbf79b95547bd9d64830108af4d10a8b929c"
+                        }
+                    },
+                    "date": "2025-01-31",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Handle failures launching the default web browser\n* Added: 'update list' subcommand to list available versions and variants\n* Added: 'update switch' subcommand to support switching to different variants\n* Changed: 'update' command is less verbose when fetching the remote manifest\n* Changed: 'update' command will no longer show file differences and strategy if there is no update available\n* Changed: 'about' command now shows current variant\n* Database: Updated to 2024-10-30"
+                }
+            }
+        }
+    }
+}
