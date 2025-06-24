@@ -375,6 +375,40 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Suggestion text in the query panel is now blank when the cursor is after an error\n* Fixed: Expanded text in query panel is no longer cut off prematurely when there is an error within a variable\n* Fixed: Error underline in query panel will now highlight the variable if there is an error in the variable\n* Fixed: Error underline in query panel is now positioned correctly after variable expansion\n* Added: Configuration tab for variables\n* Added: Word count as a column in the list panel\n* Added: Expansion text shows error underline when there is an error in a variable\n* Changed: Expansion text now word-wraps when it is wider than the window\n* Changed: Query text is now a variable width font\n* Changed: Improved theme consistency between platforms\n* Database: Updated to 2025-02-27"
+                },
+                "4.0.0-beta.2": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "ff660759d7f31d84ac922d2b669a600b2d84e543aba0a1fcfce4760a"
+                        },
+                        "database.mdb": {
+                            "digest": "b26cf0285e36e81f16c1455c88d5b69052ba932ea0525d09d14904e3"
+                        },
+                        "milodb": {
+                            "digest": "e6cec5ac2559a376aa27e318a333f511cad60096eeef87f617071252",
+                            "exe": true
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "f13f47148fe2b71f66497f56d260e688a09bfdfdd9e03463b7dcc616"
+                        },
+                        "milodb.pdf": {
+                            "digest": "d55272243aa2b9ce6e90a61a9189d1d17b8143f495e6419c4993ce74"
+                        },
+                        "milodb.ver": {
+                            "digest": "f4576d16702d0906333645bad770fff1be829088e9c5792d0baa9c0e"
+                        }
+                    },
+                    "date": "2025-06-24",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Log text in log window did not expand when the window was resized\n* Added: Initial user guide\n* Changed: Used fixed width font for log text\n* Changed: Improved consistency of fonts and font sizes across platforms\n* Changed: Prefixed error messages are now coloured"
                 }
             }
         },
@@ -740,6 +774,39 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Suggestion text in the query panel is now blank when the cursor is after an error\n* Fixed: Expanded text in query panel is no longer cut off prematurely when there is an error within a variable\n* Fixed: Error underline in query panel will now highlight the variable if there is an error in the variable\n* Fixed: Error underline in query panel is now positioned correctly after variable expansion\n* Added: Configuration tab for variables\n* Added: Word count as a column in the list panel\n* Added: Expansion text shows error underline when there is an error in a variable\n* Changed: Expansion text now word-wraps when it is wider than the window\n* Changed: Query text is now a variable width font\n* Changed: Improved theme consistency between platforms\n* Database: Updated to 2025-02-27"
+                },
+                "4.0.0-beta.2": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "changelog.md": {
+                            "digest": "ff660759d7f31d84ac922d2b669a600b2d84e543aba0a1fcfce4760a"
+                        },
+                        "database.mdb": {
+                            "digest": "b26cf0285e36e81f16c1455c88d5b69052ba932ea0525d09d14904e3"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "f13f47148fe2b71f66497f56d260e688a09bfdfdd9e03463b7dcc616"
+                        },
+                        "milodb.exe": {
+                            "digest": "1858e4de28a9d7a9c36ddb05ad9a265bdfca8d7acaadf618f72a0458"
+                        },
+                        "milodb.pdf": {
+                            "digest": "d55272243aa2b9ce6e90a61a9189d1d17b8143f495e6419c4993ce74"
+                        },
+                        "milodb.ver": {
+                            "digest": "3b374041c69a207a43d49cbbffee3f0ddd56b2eec98864874eb764cc"
+                        }
+                    },
+                    "date": "2025-06-24",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Log text in log window did not expand when the window was resized\n* Added: Initial user guide\n* Changed: Used fixed width font for log text\n* Changed: Improved consistency of fonts and font sizes across platforms\n* Changed: Prefixed error messages are now coloured"
                 }
             }
         },
