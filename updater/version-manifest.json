@@ -409,6 +409,39 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Log text in log window did not expand when the window was resized\n* Added: Initial user guide\n* Changed: Used fixed width font for log text\n* Changed: Improved consistency of fonts and font sizes across platforms\n* Changed: Prefixed error messages are now coloured"
+                },
+                "4.0.0-rc.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json"
+                    },
+                    "coreFiles": {
+                        "milodb": {
+                            "digest": "d77e4ea77857c5836fd6f616ab21a48fa626443f986ada5744fc599d",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "209b58a899e28a145ee66484ac8f41f6cdcb861cd3b08070fd337360"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "2f38b5d89082de54aa1e8be7f64ce032e0a99a566beb182850d96dc0"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "cf6a72da84956ebd6399a5340333ddc7c42179c76cecd4f8bb81ad37"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "73dba8effee055f9a50f45e16f44cf162cc35b380b71ef850d9bda96"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "acd7f1a914ceb8aa700748caff1a36320c2be714dc83b183cfec670d"
+                        }
+                    },
+                    "date": "2025-06-30",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Update failed when trying to rename non-existent config files\n* Changed: Renamed core files for consistency\n* Changed: Improved contrast of tease selection in panels\n* Database: Updated to 2025-03-30"
                 }
             }
         },
@@ -807,6 +840,38 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Log text in log window did not expand when the window was resized\n* Added: Initial user guide\n* Changed: Used fixed width font for log text\n* Changed: Improved consistency of fonts and font sizes across platforms\n* Changed: Prefixed error messages are now coloured"
+                },
+                "4.0.0-rc.1": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json"
+                    },
+                    "coreFiles": {
+                        "milodb-changelog.md": {
+                            "digest": "209b58a899e28a145ee66484ac8f41f6cdcb861cd3b08070fd337360"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "ea8a5dd8cbf442ac39782bc4ed523431fdb88317ea6896ce8519946c"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "cf6a72da84956ebd6399a5340333ddc7c42179c76cecd4f8bb81ad37"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "73dba8effee055f9a50f45e16f44cf162cc35b380b71ef850d9bda96"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "acd7f1a914ceb8aa700748caff1a36320c2be714dc83b183cfec670d"
+                        },
+                        "milodb.exe": {
+                            "digest": "e429d23218427e1051ece296409a338a88574b7e52f274a92ccfdb7a"
+                        }
+                    },
+                    "date": "2025-06-30",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Update failed when trying to rename non-existent config files\n* Changed: Renamed core files for consistency\n* Changed: Improved contrast of tease selection in panels\n* Database: Updated to 2025-03-30"
                 }
             }
         },
@@ -1034,6 +1099,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Handling of quoted text in custom launch commands\n* Added: Sort key for word count\n* Added: Add 'debug' command for diagnosing launch issues\n* Database: Updated to 2025-02-27"
+                },
+                "3.14.0": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json",
+                        "3": "autoexec.txt"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "7aea3ca49c75d979732e5892627e26316408a6a52b06efa464519742",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "c52c71919da1138b0f556ad43ca959542996df3345673831d9469940"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "1da3ee8b2bd78b7e8501e887a7d3a7c53aa047cd5849cff0b64397e3"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "cf6a72da84956ebd6399a5340333ddc7c42179c76cecd4f8bb81ad37"
+                        },
+                        "milodb.exe": {
+                            "digest": "7793840c0af6cff66d159f39c46804085243c3a74ee5b9ce752495d9"
+                        }
+                    },
+                    "date": "2025-06-30",
+                    "launchFiles": {
+                        "linux": "milodb",
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Update failed when trying to rename non-existent config files\n* Changed: Renamed core files for consistency\n* Database: Updated to 2025-03-30"
                 },
                 "3.2.0": {
                     "configFiles": {
