@@ -442,6 +442,45 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Update failed when trying to rename non-existent config files\n* Changed: Renamed core files for consistency\n* Changed: Improved contrast of tease selection in panels\n* Database: Updated to 2025-03-30"
+                },
+                "4.0.0-rc.2": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "5fd451bc05c93c84b8cb8e47761ebce883e851ab9b9da4a0dde84d98",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "ecdd830f9c68379e390373286cb68fce94812ad85d7d407c807d7474"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "c000add941ebb5f197c9feb0abbf6eb3a627778a1ba235a613fa0133"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "8b970654618f92409b45b3d8c7549bf09b9c72253330d8eb21e1f9a9"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "73dba8effee055f9a50f45e16f44cf162cc35b380b71ef850d9bda96"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "eb73a23c727a39f670a135328ad9f63147e2989d244a2dce729437a8"
+                        }
+                    },
+                    "date": "2025-07-07",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Added: 'Generate Summary' button to summarise results in an HTML page\n* Added: Columns for audio file counts to the list panel\n* Added: Statistics for audio file counts to the statistics dialog\n* Changed: Extended user guide"
                 }
             }
         },
@@ -872,6 +911,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Update failed when trying to rename non-existent config files\n* Changed: Renamed core files for consistency\n* Changed: Improved contrast of tease selection in panels\n* Database: Updated to 2025-03-30"
+                },
+                "4.0.0-rc.2": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "ecdd830f9c68379e390373286cb68fce94812ad85d7d407c807d7474"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "3c4a1004979c249710b08f76f739eebea51b7855adabc506c868981a"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "8b970654618f92409b45b3d8c7549bf09b9c72253330d8eb21e1f9a9"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "73dba8effee055f9a50f45e16f44cf162cc35b380b71ef850d9bda96"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "eb73a23c727a39f670a135328ad9f63147e2989d244a2dce729437a8"
+                        },
+                        "milodb.exe": {
+                            "digest": "1fcda2bbc0c0739b8357466220981665ee08a481137d0cedf490577e"
+                        }
+                    },
+                    "date": "2025-07-07",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Added: 'Generate Summary' button to summarise results in an HTML page\n* Added: Columns for audio file counts to the list panel\n* Added: Statistics for audio file counts to the statistics dialog\n* Changed: Extended user guide"
                 }
             }
         },
