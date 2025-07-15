@@ -481,6 +481,45 @@
                         "linux": "milodb"
                     },
                     "log": "* Added: 'Generate Summary' button to summarise results in an HTML page\n* Added: Columns for audio file counts to the list panel\n* Added: Statistics for audio file counts to the statistics dialog\n* Changed: Extended user guide"
+                },
+                "4.0.0-rc.3": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "798dbd33fc9079716e1d08e4b76c8627aa76ad63c44f48a1caaf9b1b",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "74a6a15f935604e3f3f6640f92aca0344d5ecae3b0fa5bdfaab838e9"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "6bafe3adccac9f0d7f9000f56e2d10da20be41296f5e59a1055d86e8"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "8b970654618f92409b45b3d8c7549bf09b9c72253330d8eb21e1f9a9"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "73dba8effee055f9a50f45e16f44cf162cc35b380b71ef850d9bda96"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "61b3a8c9abbc0646c219d6de0aa3be068088e36d2ae5788813a67f8b"
+                        }
+                    },
+                    "date": "2025-07-15",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Changed: Query expression now has syntax colouring\n* Changed: Extended user guide"
                 }
             }
         },
@@ -949,6 +988,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Added: 'Generate Summary' button to summarise results in an HTML page\n* Added: Columns for audio file counts to the list panel\n* Added: Statistics for audio file counts to the statistics dialog\n* Changed: Extended user guide"
+                },
+                "4.0.0-rc.3": {
+                    "configFiles": {
+                        "0": "config.json",
+                        "1": "config.json.old",
+                        "2": "variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "74a6a15f935604e3f3f6640f92aca0344d5ecae3b0fa5bdfaab838e9"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "af445844610268ddbb2e4af3af84ede13b731aa0ab1432a26dd8aa48"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "8b970654618f92409b45b3d8c7549bf09b9c72253330d8eb21e1f9a9"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "73dba8effee055f9a50f45e16f44cf162cc35b380b71ef850d9bda96"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "61b3a8c9abbc0646c219d6de0aa3be068088e36d2ae5788813a67f8b"
+                        },
+                        "milodb.exe": {
+                            "digest": "50fbb4678402cab657d66e3ea19bec5cdd651cd16948923953d079bb"
+                        }
+                    },
+                    "date": "2025-07-15",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Query expression now has syntax colouring\n* Changed: Extended user guide"
                 }
             }
         },
