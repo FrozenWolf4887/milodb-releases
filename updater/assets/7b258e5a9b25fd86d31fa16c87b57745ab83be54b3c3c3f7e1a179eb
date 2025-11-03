@@ -1,0 +1,641 @@
+:root {
+    --page-back-col: #FDD;
+    --general-fore-col: #000;
+    --general-value-back-col: #FFF;
+    --general-border-col: #944;
+    --general-header-back-col: #944;
+    --general-header-index-fore-col: #FFF;
+    --general-header-hits-fore-col: #FFF;
+    --general-header-teaseId-fore-col: #FFF;
+    --general-header-type-fore-col: #FF0;
+    --general-header-rating-fore-col: #DBF;
+    --general-header-date-fore-col: #DDD;
+    --general-header-title-fore-col: #FDD;
+    --general-header-author-fore-col: #AFA;
+    --general-header-tags-fore-col: #BDF;
+    --general-header-summary-fore-col: #FC6;
+    --general-header-page-fore-col: #FFF;
+    --general-header-text-fore-col: #FFF;
+    --general-value-index-back-col: #BBB;
+    --general-value-index-fore-col: #000;
+    --general-value-hits-fore-col: #000;
+    --general-value-teaseId-fore-col: #000;
+    --general-value-type-fore-col: #550;
+    --general-value-rating-fore-col: #75A;
+    --general-value-date-fore-col: #444;
+    --general-value-title-fore-col: #644;
+    --general-value-title-hover-back-col: #CAC;
+    --general-value-title-select-back-col: #FCF;
+    --general-value-titleDeleted-fore-col: #A80;
+    --general-value-author-fore-col: #373;
+    --general-value-authorGone-fore-col: #C8A;
+    --general-value-tags-fore-col: #000;
+    --general-value-summary-fore-col: #000;
+    --general-value-page-fore-col: #000;
+    --general-value-page-back-col: #CCC;
+    --general-value-text-fore-col: #000;
+    --general-value-line-col: #FBB;
+    --general-matchingText-back-col: #FDD;
+    --general-matchingText-fore-col: #944;
+    --general-matchingText-border-col: #944;
+    --general-ellipsis-fore-col: #000;
+    --general-ellipsis-back-col: #CCC;
+    --general-thumbnail-back-col: #744;
+    --general-thumbnail-border-col: #C99;
+}
+
+.listTable {
+    --back-col: var(--general-value-back-col);
+    --border-col: var(--general-border-col);
+    --header-back-col: var(--general-header-back-col);
+    --header-index-fore-col: var(--general-header-index-fore-col);
+    --header-hits-fore-col: var(--general-header-hits-fore-col);
+    --header-teaseId-fore-col: var(--general-header-teaseId-fore-col);
+    --header-type-fore-col: var(--general-header-type-fore-col);
+    --header-rating-fore-col: var(--general-header-rating-fore-col);
+    --header-date-fore-col: var(--general-header-date-fore-col);
+    --header-title-fore-col: var(--general-header-title-fore-col);
+    --header-author-fore-col: var(--general-header-author-fore-col);
+    --value-back-col: var(--general-value-back-col);
+    --value-line-col: var(--general-value-line-col);
+    --value-index-back-col: var(--general-value-index-back-col);
+    --value-index-fore-col: var(--general-value-index-fore-col);
+    --value-hits-fore-col: var(--general-value-hits-fore-col);
+    --value-teaseId-fore-col: var(--general-value-teaseId-fore-col);
+    --value-type-fore-col: var(--general-value-type-fore-col);
+    --value-rating-fore-col: var(--general-value-rating-fore-col);
+    --value-date-fore-col: var(--general-value-date-fore-col);
+    --value-title-fore-col: var(--general-value-title-fore-col);
+    --value-title-hover-back-col: var(--general-value-title-hover-back-col);
+    --value-title-select-back-col: var(--general-value-title-select-back-col);
+    --value-titleDeleted-fore-col: var(--general-value-titleDeleted-fore-col);
+    --value-author-fore-col: var(--general-value-author-fore-col);
+    --value-authorGone-fore-col: var(--general-value-authorGone-fore-col);
+    --matchingText-back-col: var(--general-matchingText-back-col);
+    --matchingText-fore-col: var(--general-matchingText-fore-col);
+    --matchingText-border-col: var(--general-matchingText-border-col);
+}
+
+.totalMatches {
+    --fore-col: var(--general-fore-col);
+    --back-col: var(--general-value-back-col);
+    --border-col: var(--general-border-col);
+}
+
+.summaryTable {
+    --back-col: var(--general-value-back-col);
+    --border-col: var(--general-border-col);
+    --header-back-col: var(--general-header-back-col);
+    --header-index-fore-col: var(--general-header-index-fore-col);
+    --header-hits-fore-col: var(--general-header-hits-fore-col);
+    --header-teaseId-fore-col: var(--general-header-teaseId-fore-col);
+    --header-type-fore-col: var(--general-header-type-fore-col);
+    --header-rating-fore-col: var(--general-header-rating-fore-col);
+    --header-date-fore-col: var(--general-header-date-fore-col);
+    --header-title-fore-col: var(--general-header-title-fore-col);
+    --header-author-fore-col: var(--general-header-author-fore-col);
+    --header-authorId-fore-col: var(--general-header-author-fore-col);
+    --header-tags-fore-col: var(--general-header-tags-fore-col);
+    --header-summary-fore-col: var(--general-header-summary-fore-col);
+    --value-back-col: var(--general-value-back-col);
+    --value-line-col: var(--general-value-line-col);
+    --value-index-back-col: var(--general-value-index-back-col);
+    --value-index-fore-col: var(--general-value-index-fore-col);
+    --value-hits-fore-col: var(--general-value-hits-fore-col);
+    --value-teaseId-fore-col: var(--general-value-teaseId-fore-col);
+    --value-type-fore-col: var(--general-value-type-fore-col);
+    --value-rating-fore-col: var(--general-value-rating-fore-col);
+    --value-date-fore-col: var(--general-value-date-fore-col);
+    --value-title-fore-col: var(--general-value-title-fore-col);
+    --value-title-hover-back-col: var(--general-value-title-hover-back-col);
+    --value-title-select-back-col: var(--general-value-title-select-back-col);
+    --value-titleDeleted-fore-col: var(--general-value-titleDeleted-fore-col);
+    --value-author-fore-col: var(--general-value-author-fore-col);
+    --value-authorGone-fore-col: var(--general-value-authorGone-fore-col);
+    --value-tags-fore-col: var(--general-value-tags-fore-col);
+    --value-summary-fore-col: var(--general-value-summary-fore-col);
+    --thumbnail-back-col: var(--general-thumbnail-back-col);
+    --thumbnail-border-col: var(--general-thumbnail-border-col);
+    --matchingText-back-col: var(--general-matchingText-back-col);
+    --matchingText-fore-col: var(--general-matchingText-fore-col);
+    --matchingText-border-col: var(--general-matchingText-border-col);
+}
+
+text-table {
+    --back-col: var(--general-value-back-col);
+    --border-col: var(--general-border-col);
+    --header-back-col: var(--general-header-back-col);
+    --header-page-fore-col: var(--general-header-page-fore-col);
+    --header-text-fore-col: var(--general-header-text-fore-col);
+    --value-back-col: var(--general-value-back-col);
+    --value-line-col: var(--general-value-line-col);
+    --value-page-fore-col: var(--general-value-page-fore-col);
+    --value-page-back-col: var(--general-value-page-back-col);
+    --value-text-fore-col: var(--general-value-text-fore-col);
+    --matchingText-back-col: var(--general-matchingText-back-col);
+    --matchingText-fore-col: var(--general-matchingText-fore-col);
+    --matchingText-border-col: var(--general-matchingText-border-col);
+    --ellipsis-fore-col: var(--general-ellipsis-fore-col);
+    --ellipsis-back-col: var(--general-ellipsis-back-col);
+}
+
+body {
+    font-family: Sans,Arial,Verdana,sans-serif;
+    font-size: 10pt;
+    background-color: var(--page-back-col);
+}
+
+.listTable {
+    display: grid;
+    max-width: max-content;
+    grid-template-columns: repeat(8, auto);
+    background-color: var(--border-col);
+    padding: 0.4em;
+    border-radius: 0.5em;
+}
+
+.listTable div {
+    display: inline;
+}
+
+.listTable .th {
+    background-color: var(--header-back-col);
+    font-weight: bold;
+    padding: 0em 0.5em 0.1em 0.5em;
+}
+
+.listTable .th.index {
+    grid-column: 1;
+    text-align: right;
+    color: var(--header-index-fore-col);
+}
+
+.listTable .th.hits {
+    grid-column: 2;
+    text-align: center;
+    color: var(--header-hits-fore-col);
+}
+
+.listTable .th.teaseId {
+    grid-column: 3;
+    text-align: center;
+    color: var(--header-teaseId-fore-col);
+}
+
+.listTable .th.type {
+    grid-column: 4;
+    text-align: center;
+    color: var(--header-type-fore-col);
+}
+
+.listTable .th.rating {
+    grid-column: 5;
+    text-align: center;
+    color: var(--header-rating-fore-col);
+}
+
+.listTable .th.date {
+    grid-column: 6;
+    text-align: center;
+    color: var(--header-date-fore-col);
+}
+
+.listTable .th.title {
+    grid-column: 7;
+    text-align: left;
+    color: var(--header-title-fore-col);
+}
+
+.listTable .th.author {
+    grid-column: 8;
+    text-align: left;
+    color: var(--header-author-fore-col);
+}
+
+.listTable .td {
+    border: 0.1em solid var(--value-line-col);
+    background-color: var(--value-back-col);
+    padding: 0.05em 0.5em;
+}
+
+.listTable .td.index {
+    grid-column: 1;
+    text-align: right;
+    color: var(--value-index-fore-col);
+    background-color: var(--value-index-back-col);
+}
+
+.listTable .td.hits {
+    grid-column: 2;
+    text-align: center;
+    color: var(--value-hits-fore-col);
+}
+
+.listTable .td.teaseId {
+    grid-column: 3;
+    text-align: right;
+}
+
+.listTable .td.teaseId a {
+    color: var(--value-teaseId-fore-col);
+}
+
+.listTable .td.type {
+    grid-column: 4;
+    text-align: center;
+    color: var(--value-type-fore-col);
+}
+
+.listTable .td.rating {
+    grid-column: 5;
+    text-align: center;
+    color: var(--value-rating-fore-col);
+}
+
+.listTable .td.date {
+    grid-column: 6;
+    text-align: center;
+    color: var(--value-date-fore-col);
+}
+
+.listTable .td.title {
+    grid-column: 7;
+    color: var(--value-title-fore-col);
+}
+
+.listTable a:hover.toSummary {
+    background-color: var(--value-title-hover-back-col);
+    border-radius: 0.3em;
+}
+
+.listTable a:active.toSummary {
+    background-color: var(--value-title-select-back-col);
+    border-radius: 0.3em;
+}
+
+.listTable .td.title img {
+    height: 1.15em;
+    object-fit: contain;
+    vertical-align: top;
+    padding-right: 0.5em;
+}
+
+.listTable .td.author {
+    grid-column: 8;
+    color: var(--value-author-fore-col);
+}
+
+.listTable .td.author a {
+    color: inherit;
+}
+
+.listTable .matchingText {
+    color: var(--matchingText-fore-col);
+    background-color: var(--matchingText-back-col);
+    border: 0.1em solid var(--matchingText-border-col);
+    border-radius: 0.3em;
+}
+
+.listTable .deleted {
+    font-weight: bold;
+    color: var(--value-titleDeleted-fore-col);
+}
+
+.listTable .authorGone {
+    font-weight: bold;
+    color: var(--value-authorGone-fore-col);
+}
+
+.listTable a.toSummary {
+    display: block;
+    background: inherit;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.totalMatches {
+    margin: -0.1em 0em 1em 1em;
+    padding: 0.1em 0.5em;
+    border: 0.3em solid var(--border-col);
+    border-top: 0em;
+    border-radius: 0em 0em 0.3em 0.3em;
+    width: max-content;
+    background-color: var(--back-col);
+    color: var(--fore-col);
+}
+
+.summaryTable {
+    display: grid;
+    max-width: max-content;
+    grid-template-columns: auto auto 5.7em 5.2em auto auto;
+    background-color: var(--border-col);
+    padding: 0.4em;
+    border-radius: 0.5em;
+    margin-top: 1.5em;
+}
+
+.summaryTable div {
+    display: inline;
+}
+
+.summaryTable .th {
+    padding-left: 0.5em;
+    padding-right: 0.8em;
+    background-color: var(--header-back-col);
+    font-weight: bold;
+    text-align: right;
+}
+
+.summaryTable .th.index {
+    grid-column: 2;
+    grid-row: 1;
+    color: var(--header-index-fore-col);
+}
+
+.summaryTable .th.hits {
+    grid-column: 4;
+    grid-row: 1;
+    color: var(--header-hits-fore-col);
+}
+
+.summaryTable .th.teaseId {
+    grid-column: 2;
+    grid-row: 2;
+    color: var(--header-teaseId-fore-col);
+}
+
+.summaryTable .th.teaseTitle {
+    grid-column: 4;
+    grid-row: 2;
+    color: var(--header-title-fore-col);
+}
+
+.summaryTable .th.authorId {
+    grid-column: 2;
+    grid-row: 3;
+    color: var(--header-authorId-fore-col);
+}
+
+.summaryTable .th.authorName {
+    grid-column: 4;
+    grid-row: 3;
+    color: var(--header-author-fore-col);
+}
+
+.summaryTable .th.type {
+    grid-column: 2;
+    grid-row: 4;
+    color: var(--header-type-fore-col);
+}
+
+.summaryTable .th.date {
+    grid-column: 4;
+    grid-row: 4;
+    color: var(--header-date-fore-col);
+}
+
+.summaryTable .th.rating {
+    grid-column: 2;
+    grid-row: 5;
+    color: var(--header-rating-fore-col);
+}
+
+.summaryTable .th.tags {
+    grid-column: 4;
+    grid-row: 5;
+    color: var(--header-tags-fore-col);
+}
+
+.summaryTable .th.summary {
+    grid-column: 2;
+    grid-row: 6;
+    color: var(--header-summary-fore-col);
+}
+
+.summaryTable .td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: 0.1em solid var(--value-line-col);
+    background-color: var(--value-back-col);
+}
+
+.summaryTable .td.thumbnail {
+    grid-column: 1;
+    grid-row: 1 / span 6;
+    height: 8em;
+    width: 8em;
+    background-color: var(--thumbnail-back-col);
+    border: 0.3em solid var(--thumbnail-border-col);
+    border-radius: 0.3em;
+    padding: 0em;
+}
+
+.summaryTable .td.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.summaryTable .td.index {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: right;
+    color: var(--value-index-fore-col);
+    background-color: var(--value-index-back-col);
+}
+
+.summaryTable .td.hits {
+    grid-column: 5;
+    grid-row: 1;
+    text-align: left;
+    color: var(--value-hits-fore-col);
+    border-top-right-radius: 0.3em;
+}
+
+.summaryTable .td.teaseId {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: right;
+}
+
+.summaryTable .td.teaseId a {
+    color: var(--value-teaseId-fore-col);
+}
+
+.summaryTable .td.authorId {
+    grid-column: 3;
+    grid-row: 3;
+    text-align: right;
+    color: var(--value-author-fore-col);
+}
+
+.summaryTable .td.authorId a {
+    color: var(--value-author-fore-col);
+}
+
+.summaryTable .td.type {
+    grid-column: 3;
+    grid-row: 4;
+    text-align: right;
+    color: var(--value-type-fore-col);
+}
+
+.summaryTable .td.rating {
+    grid-column: 3;
+    grid-row: 5;
+    text-align: right;
+    color: var(--value-rating-fore-col);
+}
+
+.summaryTable .td.tags {
+    grid-column: 5;
+    grid-row: 5;
+    color: var(--value-tags-fore-col);
+}
+
+.summaryTable .td.summary {
+    grid-column: 3 / span 3;
+    grid-row: 6;
+    color: var(--value-summary-fore-col);
+    border-bottom-right-radius: 0.3em;
+}
+
+.summaryTable .td.summary > div {
+    display: block;
+    margin: 0;
+}
+
+.summaryTable .td.summary > div:not(:first-of-type) {
+    margin-top: 0.4em;
+}
+
+.summaryTable .td.title {
+    grid-column: 5;
+    grid-row: 2;
+    color: var(--value-title-fore-col);
+}
+
+.summaryTable .td.title img {
+    height: 1.15em;
+    object-fit: contain;
+    vertical-align: top;
+    padding-right: 0.5em;
+}
+
+.summaryTable .td.authorName {
+    grid-column: 5;
+    grid-row: 3;
+    color: var(--value-author-fore-col);
+}
+
+.summaryTable .td.date {
+    grid-column: 5;
+    grid-row: 4;
+    color: var(--value-date-fore-col);
+}
+
+.summaryTable .matchingText {
+    color: var(--matchingText-fore-col);
+    background-color: var(--matchingText-back-col);
+    border: 0.1em solid var(--matchingText-border-col);
+    border-radius: 0.3em;
+}
+
+.summaryTable .deleted {
+    font-weight: bold;
+    color: var(--value-titleDeleted-fore-col);
+}
+
+.summaryTable .authorGone {
+    font-weight: bold;
+    color: var(--value-authorGone-fore-col);
+}
+
+.summaryTable a.toList {
+    display: block;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.summaryTable a:hover.toList {
+    background-color: var(--value-title-hover-back-col);
+    border-radius: 0.3em;
+}
+
+.summaryTable a:active.toList {
+    background-color: var(--value-title-select-back-col);
+    border-radius: 0.3em;
+}
+
+text-table {
+    display: grid;
+    max-width: max-content;
+    grid-template-columns: auto auto;
+    background-color: var(--border-col);
+    padding: 0.4em;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+}
+
+text-table .th {
+    padding: 0em 0.5em 0.1em 0.5em;
+    font-weight: bold;
+    background-color: var(--header-back-col);
+}
+
+text-table .th.pageRef {
+    grid-column: 1;
+    color: var(--header-page-fore-col);
+}
+
+text-table .th.text {
+    grid-column: 2;
+    color: var(--header-text-fore-col);
+}
+
+text-table .td {
+    padding: 0.2em 0.5em;
+    border: 0.1em solid var(--value-line-col);
+}
+
+text-table .td.pageRef {
+    grid-column: 1;
+    background-color: var(--value-page-back-col);
+    color: var(--value-page-fore-col);
+}
+
+text-table .td.text {
+    grid-column: 2;
+    background-color: var(--value-back-col);
+    color: var(--value-text-fore-col);
+    display: block;
+}
+
+text-table .td.text > div:not(:first-of-type) {
+    padding-top: 0.2em;
+}
+
+text-table .matchingText {
+    color: var(--matchingText-fore-col);
+    background-color: var(--matchingText-back-col);
+    border: 0.1em solid var(--matchingText-border-col);
+    border-radius: 0.3em;
+}
+
+text-table .ellipsis {
+    color: var(--ellipsis-fore-col);
+    background-color: var(--ellipsis-back-col);
+    border-radius: 0.3em;
+}
+
+.totm-nominee {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16' height='16' viewBox='0 0 95.795 95.655'%3e%3cdefs%3e%3clinearGradient id='a'%3e%3cstop offset='0' style='stop-color:%23fff;stop-opacity:1'/%3e%3cstop offset='1' style='stop-color:%23a1a1a1;stop-opacity:1'/%3e%3c/linearGradient%3e%3clinearGradient xlink:href='%23a' id='b' x1='86.711' x2='415.002' y1='189.948' y2='444.116' gradientUnits='userSpaceOnUse'/%3e%3c/defs%3e%3cpath d='m384.292 291.28 39.434 32.463-38.095 34.024 19.83 47.071-49.543 12.424-4.315 50.895-49.642-12.024-27.474 43.06-38.368-33.716-44.337 25.36-18.305-47.685-51.044 1.85 5.952-50.729-46.057-22.082 28.845-42.153-30.519-40.957 45.13-23.92-7.99-50.448 51.078-.206 16.37-48.383 45.322 23.554 36.98-35.234 29.185 41.919 49.117-14.013 6.362 50.68 50.003 10.419z' style='opacity:1;fill:url(%23b);fill-opacity:1;fill-rule:evenodd;stroke:%23000;stroke-width:11.5843;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' transform='matrix(.26422 -.01385 .01385 .26422 -22.994 -34.75)'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    padding-left: 1.6em;
+}
+
+.totm-winner {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16' height='16' viewBox='0 0 95.795 95.655'%3e%3cdefs%3e%3clinearGradient id='a'%3e%3cstop offset='0' style='stop-color:%23ffe580;stop-opacity:1'/%3e%3cstop offset='1' style='stop-color:%239d791d;stop-opacity:1'/%3e%3c/linearGradient%3e%3clinearGradient xlink:href='%23a' id='b' x1='86.711' x2='415.002' y1='189.948' y2='444.116' gradientUnits='userSpaceOnUse'/%3e%3c/defs%3e%3cpath d='m384.292 291.28 39.434 32.463-38.095 34.024 19.83 47.071-49.543 12.424-4.315 50.895-49.642-12.024-27.474 43.06-38.368-33.716-44.337 25.36-18.305-47.685-51.044 1.85 5.952-50.729-46.057-22.082 28.845-42.153-30.519-40.957 45.13-23.92-7.99-50.448 51.078-.206 16.37-48.383 45.322 23.554 36.98-35.234 29.185 41.919 49.117-14.013 6.362 50.68 50.003 10.419z' style='opacity:1;fill:url(%23b);fill-opacity:1;fill-rule:evenodd;stroke:%23000;stroke-width:11.5843;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1' transform='matrix(.26422 -.01385 .01385 .26422 -22.994 -34.75)'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    padding-left: 1.6em;
+}

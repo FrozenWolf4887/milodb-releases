@@ -1,0 +1,21 @@
+{
+    "configFiles": {
+        "0": "user-config.json",
+        "1": "user-config.json.old",
+        "2": "user-variables.json"
+    },
+    "coreFiles": [
+        "milodb-manifest.ver",
+        "milodb-changelog.md",
+        "milodb",
+        "milodb-teases.dat",
+        "milodb-thumbs.dat",
+        "default-light.css",
+        "default-dark.css",
+        "milodb-user-guide.pdf"
+    ],
+    "date": "2025-09-30",
+    "format": 1,
+    "variant": "gui-linux",
+    "version": "4.2.0"
+}

@@ -1,0 +1,120 @@
+{
+    "assetRegister": {
+        "assets": {
+            "08ee81879750617740edb2e3511be4bd281dadf1261e11d7ee0a154c": {
+                "size": 10662813
+            },
+            "117c3b2b6dec3f0af4d5210ddfa9815acd97a254c8cd739dd220fa33": {
+                "size": 483
+            },
+            "166236de4529ea3211919956cb56c5a8166b342a639ebcebd94c1f19": {
+                "size": 14102164
+            },
+            "1d75aded6aef8aa69cd174956d15c67ef023928b0d3c979120e0175c": {
+                "size": 483
+            },
+            "2cf9b6c427b400636e6303d64fdaf8b3edb83e3565bedc214388a5c1": {
+                "size": 9917448
+            },
+            "304e50c6670d35db262431cfaa151170414beff0efb940930c914bdd": {
+                "size": 467
+            },
+            "33cbea93e7a14db3b59e0e896da32b7304ffcb2fd575a37c8bca2b92": {
+                "size": 17279496
+            },
+            "3c8bc5553aa619e373548624023e6af282adb577e95a7f17a6791391": {
+                "size": 211328
+            },
+            "3e4685382e04e9146097b4cbc45aaeb91d093814cff536963781090b": {
+                "size": 474
+            },
+            "3e9a29bb30cb7a7fb8715be572785a4cabf4379da2889e32547677bb": {
+                "size": 468
+            },
+            "458bbce6c30e7e8b5267827afac3ec81ec7a3059309fa9b277ae78b9": {
+                "size": 17335888
+            },
+            "4ead770646aa90c2110fe8fb47cffcb5cca8a93fabf821ce04c82f41": {
+                "size": 15501903
+            },
+            "5306d45362c36003bbe14a18177ea2e6774f14975318776f84349a57": {
+                "size": 15730000
+            },
+            "66371e3d51f1a963cf5274ae1b06af8dc745e76348a1fd072b50ce5b": {
+                "size": 208979
+            },
+            "67cbca5078fd46b4a1021ecdf60dcac40361e485bee85ae4cdb5f54c": {
+                "size": 5543
+            },
+            "6bcc09738e2362ff1b118581e2f08bb381d0e145cdf5a92019492478": {
+                "size": 14140772
+            },
+            "6cc379a5e21b257ddf769459064ac4a2650d25f8f80f9001eed3edbd": {
+                "size": 214713
+            },
+            "6ef6f19dd3c4a79fd97828acc35d8315c1a4d2c657f3545ed8f06618": {
+                "size": 483
+            },
+            "792008ec6724ea5a3be7d3ece120d4d5f3ce3194c6ec2a2ef32ec2a9": {
+                "size": 17289136
+            },
+            "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb": {
+                "size": 19196
+            },
+            "86424a4307d9585e6a76b42e5db5e1f31d32832edc9060a3acf2b2e3": {
+                "size": 15702400
+            },
+            "8b842cf07ddd9a7f5dfb7e5a84718817dc411bdc428d4ca30142019b": {
+                "size": 489
+            },
+            "8d6b98e826dd04fbd0a91b9b7b70fce9506829b5a35b03735a21b685": {
+                "size": 15511521
+            },
+            "920a62c8f5c620c44bd22280d297e86d493e3a4de7cdc120c0f4904b": {
+                "size": 14142
+            },
+            "9b017a6d1577f8db984f436b6a72aaf550e68db0ab7960c1b69cdf9d": {
+                "size": 6331
+            },
+            "9d007e8379e71f9163903cc704591e2eb854bf15e2edccca18326045": {
+                "size": 27508256
+            },
+            "a3823b133213131f2d9af2d011d37493e30f84049ed698d95a4bcff8": {
+                "size": 27212760
+            },
+            "a9d71dee7cb8a061e0b184ce26896ce53830f31a5bc339f5916b7130": {
+                "size": 27452336
+            },
+            "ad94d8ee480b30dab541c641f49649d151bd25bfc4c3a5288bdb1461": {
+                "size": 6131
+            },
+            "c3e2c4a2b59c1e4cbd956f66b3a6856a61ec351dbd178c09f21fcbf6": {
+                "size": 27336276
+            },
+            "d1760938573a7f864c4764d63d8991703d01374b6e16a88b8b05660f": {
+                "size": 15682713
+            },
+            "d3d3d3a4b1f8d843b2583b01754c477381b45ceea9e9594e18d655e4": {
+                "size": 489
+            },
+            "dcb9530d74ad9e1e66dac8b986e6a885d63b4ac209b2a8addb2aa1ae": {
+                "size": 15498557
+            },
+            "dcd7b24fafdea90223f84f96a9e3c2847f2c380261f14c9597d544e7": {
+                "size": 17275912
+            },
+            "dcf3e1f1d585acc31be7b5bcb095812bdd1f7dd54a7b20140449c3ee": {
+                "size": 6734
+            },
+            "e460aaeb83854e9d4f38f09511bd0708b7a2e2be56e127eac1e56d14": {
+                "size": 489
+            },
+            "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67": {
+                "size": 19196
+            }
+        },
+        "templateAssetUri": "assets/<>"
+    },
+    "format": 2,
+    "versionManifestUri": "version-manifest.json"
+}
