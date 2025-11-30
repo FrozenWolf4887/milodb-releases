@@ -159,6 +159,45 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Cleaned up icons on desktop and window\n* Fixed: Colour of 'unknown' author text in table list panel had poor contrast when row was selected\n* Fixed: Warning/error icon in prompt dialog was too far down when detail text was long\n* Changed: Table theme is now used in update dialog\n* Removed: Removed source code related to terminal build\n* Database: Updated to 2025-07-31"
+                },
+                "4.4.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "e8117a98e8ed0ac713043894e834cd6be48ca1ec717930a4981cc794",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "05a4f1f7ede17c51bee23f2d5d38b72e3a57ed54b3ce0f587ca4d7f2"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "2a634f5180bafaef2d61178d995d3df7e9fe7b776b35bb75b33b3cca"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "621e9c81b725026f5cd356c14df48fb953c4ec67767e06db623e8987"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "3e8c4ec1ae8ec824a93491ff629366c59ebde8bb7e58d9f72308ee63"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "6cc379a5e21b257ddf769459064ac4a2650d25f8f80f9001eed3edbd"
+                        }
+                    },
+                    "date": "2025-11-30",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Window icon on some dialog windows\n* Changed: Improved appearance of loading dialog\n* Changed: Improved titles of dialogs\n* Database: Updated to 2025-08-30"
                 }
             }
         },
@@ -316,6 +355,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Cleaned up icons on desktop and window\n* Fixed: Colour of 'unknown' author text in table list panel had poor contrast when row was selected\n* Fixed: Warning/error icon in prompt dialog was too far down when detail text was long\n* Changed: Table theme is now used in update dialog\n* Removed: Removed source code related to terminal build\n* Database: Updated to 2025-07-31"
+                },
+                "4.4.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "05a4f1f7ede17c51bee23f2d5d38b72e3a57ed54b3ce0f587ca4d7f2"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "6d20c4a9535563f812e85597971e18353bbd82e009837305e7c080ad"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "621e9c81b725026f5cd356c14df48fb953c4ec67767e06db623e8987"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "3e8c4ec1ae8ec824a93491ff629366c59ebde8bb7e58d9f72308ee63"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "6cc379a5e21b257ddf769459064ac4a2650d25f8f80f9001eed3edbd"
+                        },
+                        "milodb.exe": {
+                            "digest": "1b1df5885c9100a54ac0657602792ceeebe6db091df7741c862e0d20"
+                        }
+                    },
+                    "date": "2025-11-30",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Window icon on some dialog windows\n* Changed: Improved appearance of loading dialog\n* Changed: Improved titles of dialogs\n* Database: Updated to 2025-08-30"
                 }
             }
         },
@@ -361,6 +438,6 @@
                     "log": "* Added: End-of-life message\n* Added: 'gui-upgrade' command\n* Added: Audio stats in 'stats' command\n* Added: Sort keys for audio count\n* Database: Updated to 2025-04-29"
                 }
             }
-       }
+        }
     }
 }
