@@ -1,6 +1,9 @@
 {
     "assetRegister": {
         "assets": {
+            "02c08976f1b5871ce918134fce2880015eb3baf1b75df751290b9767": {
+                "size": 27629456
+            },
             "05a4f1f7ede17c51bee23f2d5d38b72e3a57ed54b3ce0f587ca4d7f2": {
                 "size": 21044
             },
@@ -43,6 +46,12 @@
             "3e9a29bb30cb7a7fb8715be572785a4cabf4379da2889e32547677bb": {
                 "size": 468
             },
+            "3f73d255e01a187281d21074d10faf95baa8a61829cf81400a37c38a": {
+                "size": 15759844
+            },
+            "43811c71e25742d00097b23942da76b912e1d55697396bfd603c4f6e": {
+                "size": 489
+            },
             "458bbce6c30e7e8b5267827afac3ec81ec7a3059309fa9b277ae78b9": {
                 "size": 17335888
             },
@@ -57,6 +66,9 @@
             },
             "66371e3d51f1a963cf5274ae1b06af8dc745e76348a1fd072b50ce5b": {
                 "size": 208979
+            },
+            "6728e460a56db2f56f7bc1941e54a80c9db15cc8b9d7599c7ab8f4c6": {
+                "size": 21532
             },
             "67cbca5078fd46b4a1021ecdf60dcac40361e485bee85ae4cdb5f54c": {
                 "size": 5543
@@ -73,6 +85,9 @@
             "6ef6f19dd3c4a79fd97828acc35d8315c1a4d2c657f3545ed8f06618": {
                 "size": 483
             },
+            "70e531b169304324a1e1aee5c63adef340394f09a9036bf23b01e921": {
+                "size": 483
+            },
             "792008ec6724ea5a3be7d3ece120d4d5f3ce3194c6ec2a2ef32ec2a9": {
                 "size": 17289136
             },
@@ -87,6 +102,9 @@
             },
             "8d6b98e826dd04fbd0a91b9b7b70fce9506829b5a35b03735a21b685": {
                 "size": 15511521
+            },
+            "8fceca689ad010cd4922555b18d4e5d1b1398567104a1afb5c91afe3": {
+                "size": 17267920
             },
             "920a62c8f5c620c44bd22280d297e86d493e3a4de7cdc120c0f4904b": {
                 "size": 14142
@@ -105,6 +123,9 @@
             },
             "ad94d8ee480b30dab541c641f49649d151bd25bfc4c3a5288bdb1461": {
                 "size": 6131
+            },
+            "c281ac030d6a482973838f2ca845000b4d6f37d2b4f8abfeb8e9f090": {
+                "size": 15623265
             },
             "c3e2c4a2b59c1e4cbd956f66b3a6856a61ec351dbd178c09f21fcbf6": {
                 "size": 27336276

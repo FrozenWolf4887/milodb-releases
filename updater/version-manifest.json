@@ -198,6 +198,45 @@
                         "linux": "milodb"
                     },
                     "log": "* Fixed: Window icon on some dialog windows\n* Changed: Improved appearance of loading dialog\n* Changed: Improved titles of dialogs\n* Database: Updated to 2025-08-30"
+                },
+                "4.5.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "8fceca689ad010cd4922555b18d4e5d1b1398567104a1afb5c91afe3",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "6728e460a56db2f56f7bc1941e54a80c9db15cc8b9d7599c7ab8f4c6"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "70e531b169304324a1e1aee5c63adef340394f09a9036bf23b01e921"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "02c08976f1b5871ce918134fce2880015eb3baf1b75df751290b9767"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "3f73d255e01a187281d21074d10faf95baa8a61829cf81400a37c38a"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "6cc379a5e21b257ddf769459064ac4a2650d25f8f80f9001eed3edbd"
+                        }
+                    },
+                    "date": "2026-01-01",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Changed: Constrained height of expansion to five lines and show a scroll bar when needed\n* Changed: Disabled right-click menu option to open-author and copy-author-url when author is unknown or gone\n* Added: Scroll expansion text to keep currently highlighted token visible\n* Added: Highlight associated expanded text to correspond with the token under the cursor in the query text\n* Database: Recovered authorIds for all teases\n* Database: Updated to 2025-09-30"
                 }
             }
         },
@@ -393,6 +432,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Window icon on some dialog windows\n* Changed: Improved appearance of loading dialog\n* Changed: Improved titles of dialogs\n* Database: Updated to 2025-08-30"
+                },
+                "4.5.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "6728e460a56db2f56f7bc1941e54a80c9db15cc8b9d7599c7ab8f4c6"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "43811c71e25742d00097b23942da76b912e1d55697396bfd603c4f6e"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "02c08976f1b5871ce918134fce2880015eb3baf1b75df751290b9767"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "3f73d255e01a187281d21074d10faf95baa8a61829cf81400a37c38a"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "6cc379a5e21b257ddf769459064ac4a2650d25f8f80f9001eed3edbd"
+                        },
+                        "milodb.exe": {
+                            "digest": "c281ac030d6a482973838f2ca845000b4d6f37d2b4f8abfeb8e9f090"
+                        }
+                    },
+                    "date": "2026-01-01",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Constrained height of expansion to five lines and show a scroll bar when needed\n* Changed: Disabled right-click menu option to open-author and copy-author-url when author is unknown or gone\n* Added: Scroll expansion text to keep currently highlighted token visible\n* Added: Highlight associated expanded text to correspond with the token under the cursor in the query text\n* Database: Recovered authorIds for all teases\n* Database: Updated to 2025-09-30"
                 }
             }
         },
