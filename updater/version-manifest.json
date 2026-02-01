@@ -237,6 +237,45 @@
                         "linux": "milodb"
                     },
                     "log": "* Changed: Constrained height of expansion to five lines and show a scroll bar when needed\n* Changed: Disabled right-click menu option to open-author and copy-author-url when author is unknown or gone\n* Added: Scroll expansion text to keep currently highlighted token visible\n* Added: Highlight associated expanded text to correspond with the token under the cursor in the query text\n* Database: Recovered authorIds for all teases\n* Database: Updated to 2025-09-30"
+                },
+                "4.6.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "2e65cf252e3942d45aa8c3fe26f56b4c2c59dea90ef35adec78eb2ad",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "f249a1beb76ac2087af3904b15da8d7ce878a3efff99cc3567b7711c"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "550de267f1d182855b0542c07dc6371ee3d2ddb4379d58476783f769"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "4b179a74d038275c51d2981e8a3dc4ea17d71674d8f24b12a225a60d"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "6b5732d8a8f029ab4a2e7a69ff3e9fd6539d4b1e545896afb9e0c838"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "763bbd638091ea4bd91139146924717a7c7cfc522bbfae62b66cb13b"
+                        }
+                    },
+                    "date": "2026-02-01",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Mouse scroll-wheel now scrolls in update dialog\n* Fixed: When restarting to update, the text 'Completing update' appeared in the wrong place on the splash dialog\n* Changed: Renamed config items related to launch for consistency\n* Changed: Extended chapter on launch configuration in the user guide\n* Changed: Improved appearance of splash dialog\n* Added: Quick start chapter to the user guide\n* Added: Information about duplication squelching to the user guide\n* Database: Squelched consecutive identical paragraphs in a page\n* Database: Updated to 2025-10-31"
                 }
             }
         },
@@ -470,6 +509,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Changed: Constrained height of expansion to five lines and show a scroll bar when needed\n* Changed: Disabled right-click menu option to open-author and copy-author-url when author is unknown or gone\n* Added: Scroll expansion text to keep currently highlighted token visible\n* Added: Highlight associated expanded text to correspond with the token under the cursor in the query text\n* Database: Recovered authorIds for all teases\n* Database: Updated to 2025-09-30"
+                },
+                "4.6.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "f249a1beb76ac2087af3904b15da8d7ce878a3efff99cc3567b7711c"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "90eafa5041523f7b6f71c98306cc1aede45c0b61cf495564ca50acd2"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "4b179a74d038275c51d2981e8a3dc4ea17d71674d8f24b12a225a60d"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "6b5732d8a8f029ab4a2e7a69ff3e9fd6539d4b1e545896afb9e0c838"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "763bbd638091ea4bd91139146924717a7c7cfc522bbfae62b66cb13b"
+                        },
+                        "milodb.exe": {
+                            "digest": "7e3608c403f3a91fc305d8d0b54715bb57f8fcc9491de1da1a94f5a2"
+                        }
+                    },
+                    "date": "2026-02-01",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Mouse scroll-wheel now scrolls in update dialog\n* Fixed: When restarting to update, the text 'Completing update' appeared in the wrong place on the splash dialog\n* Changed: Renamed config items related to launch for consistency\n* Changed: Extended chapter on launch configuration in the user guide\n* Changed: Improved appearance of splash dialog\n* Added: Quick start chapter to the user guide\n* Added: Information about duplication squelching to the user guide\n* Database: Squelched consecutive identical paragraphs in a page\n* Database: Updated to 2025-10-31"
                 }
             }
         },
