@@ -1,0 +1,526 @@
+# MiloDB GUI, Change Log
+
+## 4.4.0, 2025-11-30
+
+* Fixed: Window icon on some dialog windows
+* Changed: Improved appearance of loading dialog
+* Changed: Improved titles of dialogs
+* Database: Updated to 2025-08-30
+
+## 4.3.0, 2025-11-01
+
+* Fixed: Cleaned up icons on desktop and window
+* Fixed: Colour of 'unknown' author text in table list panel had poor contrast when row was selected
+* Fixed: Warning/error icon in prompt dialog was too far down when detail text was long
+* Changed: Table theme is now used in update dialog
+* Removed: Removed source code related to terminal build
+* Database: Updated to 2025-07-31
+
+## 4.2.0, 2025-09-30
+
+* Fixed: Pasting text into config editor didn't cause 'Revert'/'Reset' button to appear
+* Changed: Overhauled theme for a more consistent look
+* Database: Updated to 2025-06-28
+
+## 4.1.0, 2025-08-31
+
+* Fixed: Text highlighting started one character too early on lines containing an emoji anywhere before the highlight
+* Fixed: Error highlighting in queries containing unterminated quotes didn't appear after variable expansion
+* Fixed: Error highlighting in queries containing unterminated quotes didn't show in expanded text
+* Changed: Stripped zero-width-space unicode characters from database text
+* Changed: Added copy/open URL buttons to the About dialog
+* Changed: Renamed config files for consistency; prefixed with 'user-'
+* Database: Updated to 2025-05-28
+
+## 4.0.0, 2025-07-31
+
+* Fixed: Dialogs now get focus when opened
+* Fixed: Highlighting of query tokens with leading escape sequences were not highlighted correctly
+* Changed: Numeric keypad can now be used for text cursor navigation on Linux
+* Database: Updated to 2025-04-29
+
+## 3.15.0, 2025-07-31
+
+* Added: End-of-life message
+* Added: 'gui-upgrade' command
+* Added: Audio stats in 'stats' command
+* Added: Sort keys for audio count
+* Database: Updated to 2025-04-29
+
+## 4.0.0-rc.3, 2025-07-15
+
+* Changed: Query expression now has syntax colouring
+* Changed: Extended user guide
+
+## 4.0.0-rc.2, 2025-07-07
+
+* Changed: Extended user guide
+* Added: 'Generate Summary' button to summarise results in an HTML page
+* Added: Columns for audio file counts to the list panel
+* Added: Statistics for audio file counts to the statistics dialog
+
+## 4.0.0-rc.1, 2025-06-30
+
+* Fixed: Update failed when trying to rename non-existent config files
+* Changed: Renamed core files for consistency
+* Changed: Improved contrast of tease selection in panels
+* Database: Updated to 2025-03-30
+
+## 3.14.0, 2025-06-30
+
+* Fixed: Update failed when trying to rename non-existent config files
+* Changed: Renamed core files for consistency
+* Database: Updated to 2025-03-30
+
+## 4.0.0-beta.2, 2025-06-24
+
+* Fixed: Log text in log window did not expand when the window was resized
+* Added: Initial user guide
+* Changed: Used fixed width font for log text
+* Changed: Improved consistency of fonts and font sizes across platforms
+* Changed: Prefixed error messages are now coloured
+
+## 4.0.0-beta.1, 2025-05-30
+
+* Fixed: Suggestion text in the query panel is now blank when the cursor is after an error
+* Fixed: Expanded text in query panel is no longer cut off prematurely when there is an error within a variable
+* Fixed: Error underline in query panel will now highlight the variable if there is an error in the variable
+* Fixed: Error underline in query panel is now positioned correctly after variable expansion
+* Added: Configuration tab for variables
+* Added: Word count as a column in the list panel
+* Added: Expansion text shows error underline when there is an error in a variable
+* Changed: Expansion text now word-wraps when it is wider than the window
+* Changed: Query text is now a variable width font
+* Changed: Improved theme consistency between platforms
+* Database: Updated to 2025-02-27
+
+## 3.13.0, 2025-05-30
+
+* Fixed: Handling of quoted text in custom launch commands
+* Added: Sort key for word count
+* Added: Add 'debug' command for diagnosing launch issues
+* Database: Updated to 2025-02-27
+
+## 4.0.0-alpha.11, 2025-05-11
+
+* Fixed: Handling of quoted text in custom launch commands
+* Added: Config dialog
+
+## 4.0.0-alpha.10, 2025-04-30
+
+* Fixed: Mouse-wheel scrolling now works reliably in all tabs of update dialog
+* Changed: Status icon shown on query panel now matches theme
+* Added: Text pages can now be selected for consistency with other panels
+* Added: List panel supports copying rows from right-click menu
+* Added: Card panel supports copying cards from right-click menu
+* Added: Text panel supports copying text from right-click menu
+* Added: About dialog now shows the amount of memory used by the application
+* Database: Recovered some missing author names and IDs
+* Database: Updated to 2025-01-29
+
+## 3.12.0, 2025-04-30
+
+* Added: 'about' command now shows the amount of memory used by the application
+* Database: Recovered some missing author names and IDs
+* Database: Updated to 2025-01-29
+
+## 4.0.0-alpha.9, 2025-04-16
+
+* Fixed: Log message prefixes are no longer doubled-up in log displays
+* Changed: Cells in the list panel are now aligned left/right/middle as appropriate
+* Changed: TeaseId \(TID\) and AuthorId \(AID\) are not shown by default in the list panel
+* Changed: When updating to a different variant, all change history is now shown
+* Changed: When updating, all change history is now shown with the new changes highlighted
+* Changed: Dialogs are now opened in the middle of the main window
+* Added: Columns in the list panel can now be hidden/shown with a right-click menu
+* Added: Progress dialog is displayed during a search
+* Added: Wait cursor is displayed during a search
+
+## 4.0.0-alpha.8, 2025-03-31
+
+* Fixed: Dragging the stats dialog around the screen no longer lags behind the mouse cursor
+* Changed: Improved speed of opening stats dialog
+* Changed: Show top 100 entries in stats dialog instead of 80
+* Changed: Show newest and oldest tease date in stats dialog
+* Database: Stripped duplicate page names from NYX teases
+* Database: Updated to 2024-12-31
+
+## 3.11.0, 2025-03-31
+
+* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform
+* Fixed: Update no longer fails when trying to delete non-existent deprecated config files
+* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp
+* Changed: Improved speed of 'stats' command
+* Changed: Included date range of database in 'stats' command
+* Changed: Updated URI to CC0 licence
+* Changed: 'sort' command can now sort by 'status', 'author', 'authorStatus', 'images', and 'uniqueImages'
+* Changed: Improved formatting for 'update list all' and 'update list variants' commands
+* Changed: Help of 'update' command now mentions the inability to TAB complete the variant name on 'update switch'
+* Database: Stripped duplicate page names from NYX teases
+* Database: Updated to 2024-12-31
+
+## 4.0.0-alpha.7, 2025-03-28
+
+* Fixed: Scroll-wheel now works on background of some tables
+* Changed: Open tease/author is now disabled if launch configuration option is set to 'none'
+* Added: About dialog
+* Added: Stats dialog
+
+## 4.0.0-alpha.6, 2025-03-21
+
+* Changed: Replaced text with icons for TOTM and tease/author status in list panel
+* Changed: Reordered columns in list panel
+* Added: Sort by any column in the list panel
+* Added: Highlight which list column is used for sorting
+* Added: Invert sort direction when clicking on list header again
+
+## 4.0.0-alpha.5, 2025-03-16
+
+* Changed: Upgraded setuptools package to try and avoid Microsoft Defender false-positive trojan detection
+
+## 4.0.0-alpha.4, 2025-03-14
+
+* Changed: 'Open Author...' in popup menu will be disabled if author is not known
+* Added: Popup menu now includes opening of a tease author's tease list
+* Added: Popup menu now includes copying of tease and author URIs
+
+## 4.0.0-alpha.3, 2025-03-13
+
+* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform
+* Fixed: Update no longer fails when trying to delete non-existent deprecated config files
+* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp
+* Added: Warn user when trying to update/switch to a variant with an unsupported main executable
+* Added: Scroll selected tease into view in other panels if not visible
+* Added: Popup menu to open tease/author profile
+
+## 4.0.0-alpha.2, 2025-03-10
+
+* Fixed: Windows - Scrolling the card panel up and down with the scroll bar crashed the application
+
+## 4.0.0-alpha.1, 2025-03-09
+
+* Added: Initial release of GUI for evaluation
+
+## 3.10.0, 2025-02-28
+
+* Changed: Improved consistency of error messages on command parsing
+* Database: Updated to 2024-11-30
+
+## 3.9.0, 2025-01-31
+
+* Fixed: Handle failures launching the default web browser
+* Added: 'update list' subcommand to list available versions and variants
+* Added: 'update switch' subcommand to support switching to different variants
+* Changed: 'update' command is less verbose when fetching the remote manifest
+* Changed: 'update' command will no longer show file differences and strategy if there is no update available
+* Changed: 'about' command now shows current variant
+* Database: Updated to 2024-10-30
+
+## 3.8.0, 2024-12-31
+
+* Fixed: 'unknown' author ID shown in browse summary had wrong colour in default-dark.css
+* Changed: Upgraded to Python 3.12
+* Changed: Fortified update fetches by handling incomplete reads and URI redirections
+* Database: Updated to 2024-09-30
+
+## 3.7.0, 2024-11-30
+
+* Fixed: Matched fields 'status' and 'authorStatus' were associated with the wrong tease field
+* Added: Dark themed CSS for 'browse' and 'browseall' commands
+* Changed: Removed CSS colour configuration from config file and moved into CSS file
+* Database: Updated to 2024-08-29
+
+## 3.6.0, 2024-10-31
+
+* Changed: Database format updated
+* Database: Updated to 2024-07-30
+
+## 3.5.0, 2024-09-30
+
+* Added: Automatic migration to newer configuration versions
+* Changed: Split launch options into platform specific groups
+* Database: Updated to 2024-06-30
+
+## 3.4.0, 2024-08-31
+
+* Added: 'config set' subcommand to set entries at runtime
+* Added: 'config edit' subcommand to edit entries at runtime
+* Added: 'config reset' subcommand to reset entries at runtime
+* Database: Sorted tags alphabetically
+* Database: Replaced ambiguous punctuation with standard punctuation
+* Database: Updated to 2024-05-31
+
+## 3.3.0, 2024-07-31
+
+* Added: 'about' command to show system info and forum links
+* Added: 'config purge' subcommand to purge redundant entries from the configuration file
+* Changed: Replaced pip requirements-\{windows,linux\}.txt with requirements-\{run,build,develop\}.txt
+* Database: Replaced non-breaking spaces with regular spaces in tease text
+* Database: Updated to 2024-04-30
+
+## 3.2.0, 2024-06-30
+
+* Fixed: 'query' command operator 'not' now has higher precedence as was originally intended
+* Fixed: Unit test failure on Windows due to inability to delete read-only files
+* Added: 'config' command to view config entries at runtime
+* Changed: 'update' command will prompt and wait for user response if there is any error during the update
+* Database: Updated to 2024-03-30
+
+## 3.1.0, 2024-05-31
+
+* Fixed: Help text of 'update' command had rogue linefeed and full stop
+* Changed: 'query' command can now match against partial dates
+* Changed: 'update' command re-uses remote connections
+* Changed: 'update' command verifies integrity of downloaded assets
+* Database: Updated to 2024-02-28
+
+## 3.0.0, 2024-04-30
+
+* Added: 'update' command to perform self updates
+* Database: Updated to 2024-01-30
+
+## 2.5.0, 2024-03-31
+
+* Database: Updated to 2023-12-31
+
+## 2.4.0, 2024-02-29
+
+* Changed: Upgraded PyInstaller to 6.4.0
+* Database: Updated to 2023-11-30
+
+## 2.3.0, 2024-01-31
+
+* Database: Updated to 2023-10-31
+
+## 2.2.0, 2023-12-31
+
+* Database: Updated to 2023-09-30
+
+## 2.1.0, 2023-11-30
+
+* Removed: 'update' command to perform self updates
+* Database: Updated to 2023-08-31
+
+## 2.0.0, 2023-10-31
+
+* Added: 'update' command to perform self updates
+* Database: Updated to 2023-07-31
+
+## 1.18.0, 2023-09-30
+
+* Fixed: Username of @10570 in \#8668 renamed 'paswis' -\> 'mangoman'
+* Added: Clicking on tease titles in browse pages will jump between list and summary
+* Database: Updated to 2023-06-30
+
+## 1.17.0, 2023-08-31
+
+* Added: Known authors who have left are now prefixed with '\[GONE\]' with their name and authorId still present
+* Added: 'query' command can query against absent authors with 'authorStatus' field
+* Changed: 'url' and 'urlauthor' commands can now output more than one link at a time
+* Database: Updated to 2023-05-26
+
+## 1.16.0, 2023-07-30
+
+* Database: Updated to 2023-04-29
+
+## 1.15.0, 2023-06-30
+
+* Fixed: NYX teases with unquoted text fields were not being captured
+* Fixed: Config settings were always using default values
+* Added: Page references can now be shown alongside text paragraphs
+* Added: 'pagerefs' command to toggle the visibility of the page references
+* Added: Configuration for launching the web browser with 'browse', 'browseall', 'open', and 'openauthor' commands
+* Database: Updated to 2023-03-31
+
+## 1.14.0, 2023-05-31
+
+* Fixed: Line breaks in NYX text are now preserved
+* Added: Contents of known deleted teases are now included in the database
+* Added: The title of a deleted tease is prefixed with '\[DELETED\]'
+* Added: 'query' command can query against deleted teases with 'status' field
+* Changed: Replace webpage favicon with inline SVG
+* Database: Updated to 2023-02-27
+
+## 1.13.0, 2023-04-30
+
+* Added: Index of the match is now show on webpages
+* Changed: Webpage TOTM icons replaced with inline SVG
+* Changed: Reduced executable size by excluding modules and binaries
+* Database: Updated to 2023-01-31
+
+## 1.12.0, 2023-03-31
+
+* Fixed: Database had missing content for teases \#39182, \#42325, \#43250, \#44945, \#46853, and \#47882
+* Fixed: Some NYX teases had missing line breaks due to malformed HTML
+* Fixed: Exception when running test.py when milodb\_admin\_tests package does not exist
+* Added: License statement in each source file
+* Database: Updated to 2022-12-31
+
+## 1.11.0, 2023-02-28
+
+* Database: Updated to 2022-11-30
+
+## 1.10.0, 2023-01-31
+
+* Fixed: 'summary' command no longer shows author URLs when author is unknown
+* Fixed: 'stats' command now shows '\[unknown author\]' instead of '\[, @0\]'
+* Added: 'query' command can now query against tease-of the month
+* Changed: List alignment no longer shifts to the right when 99 \< hits \< 1000
+* Database: Updated to 2022-10-31
+
+## 1.9.0, 2022-12-31
+
+* Fixed: 'var delete/get' no longer ignores redundant arguments
+* Fixed: Character index of an unterminated string now refers to the starting quote
+* Fixed: 'browse' and 'browseall' no longer fail silently if the CSS file is not found
+* Fixed: TAB completion was misleading when input included a fault in variable expansion
+* Fixed: Variable expansion is now disabled for of all subcommands of 'var' command
+* Fixed: 'copy' command now strips trailing end of line
+* Fixed: Manually patched author names of '\[email protected\]' caused by Cloudflare obfuscation
+* Added: Errors on input now display the input after variable expansion to give better context
+* Added: 'var edit' subcommand
+* Added: 'var copy' subcommand
+* Added: 'var rename' subcommand
+* Database: Updated to 2022-09-30
+
+## 1.8.0, 2022-11-30
+
+* Added: 'var' command to support inline input variable expansion
+* Database: Updated to 2022-08-30
+
+## 1.7.1, 2022-11-02
+
+* Fixed: Author name was corrupted in summaries in ANSI format
+
+## 1.7.0, 2022-10-31
+
+* Fixed: Removed redundant '/' in '\<meta.../\>' in generated HTML
+* Fixed: URLs are no longer generated for unknown authors
+* Added: Sorting by number of hits
+* Added: Hits statistics shown in lists and summaries
+* Changed: Help of 'sort' command includes information on sort keys
+* Changed: Placeholder shown when an author's name/id is missing
+* Changed: Improved consistency of error messages on output
+* Database: Updated to 2022-07-31
+
+## 1.6.0, 2022-09-30
+
+* Fixed: Text highlighting now works properly when highlight spans line-endings
+* Fixed: Unhandled exception when 'copy' command couldn't access clipboard
+* Fixed: Empty directories from distribution source zip file are now pruned
+* Database: Updated to 2022-06-30
+
+## 1.5.0, 2022-08-31
+
+* Changed: Improved performance of 'show', 'showall', 'browse', 'browseall'
+* Database: Updated to 2022-05-31
+
+## 1.4.0, 2022-07-31
+
+* Database: Updated to 2022-04-30
+
+## 1.3.0, 2022-06-30
+
+* Fixed: Help examples for 'show' command used the wrong command
+* Added: 'showall' command to complement the 'browseall' equivalent
+* Database: Updated to 2022-03-31
+
+## 1.2.0, 2022-05-31
+
+* Fixed: Ellipsis in abbreviated text was being placed incorrectly in some circumstances
+* Fixed: Ellipsis was still shown with 'show' command even when disabled on ANSI format
+* Added: 'copy' command to transfer output of the following command to the clipboard
+* Added: Extended 'stats' to include 'images' parameter
+* Added: Protection against excessive memory consumption by constraining total match count
+* Database: Updated to 2022-02-28
+
+## 1.1.0, 2022-04-30
+
+* Fixed: Query text now matches against capital letters
+* Added: 'stats' command for silly statistics of the database
+* Database: Updated to 2022-01-31
+
+## 1.0.0, 2022-03-31
+
+* Database: Updated to 2021-12-31
+
+## 0.9.0-beta.1, 2022-03-30
+
+* Added: Indication of TOTM nominees and winners are now shown in the list view as 'w' or 'n'
+* Changed: Removed text of '1st' and '2nd' from TOTM icons in generated webpages
+
+## 0.8.0-beta.1, 2022-03-22
+
+* Fixed: Tags for TOTM nominees and winners are now patched into the database
+* Fixed: Errors from missing or invalid 'type is' parameters now show a list of options
+* Added: Sort by TOTM is now possible with 'totm' sort key
+* Added: Help for query now includes example for using 'not' operator
+* Added: Webpages produced by 'browse' and 'browseall' have an icon and a better title
+* Added: Webpages produced by 'browse' and 'browseall' show a TOTM icon for relevant teases
+* Added: Queries for 'type is' has TAB support for suggestion and completion
+* Added: Windows - Executable now has an icon
+* Changed: Removed 'tags' as a queryable field
+* Changed: Improved formatting of help output
+* Changed: Displayed list of expected possible inputs on error is now sorted
+
+## 0.7.0-beta.1, 2022-03-17
+
+* Fixed: Sorting results by rating is now consistent
+* Fixed: Teases with no rating showed a rating of '0' instead of '0.0'
+* Fixed: Rogue characters in titles and summaries are now stripped
+* Fixed: Tags are now shown as a list of items
+* Added: Query field 'date' supports verbs '\>', '\<', '\>=', '\<=', '='
+* Added: Tags can now be searched as separate items
+* Added: Field 'tag' is now a synonym for 'tags'
+
+## 0.6.0-beta.1, 2022-03-13
+
+* Added: Query verb 'matches' is for regular expression matches
+* Added: 'browse' and 'browseall' commands include thumbnails for each tease
+* Changed: Query fields 'rating', 'authorId', 'teaseId' supports verbs '\>', '\<', '\>=', '\<=', '='
+* Changed: Query verbs 'is' and 'contains' are now plain text matches
+* Changed: Query verbs are now appropriate to each field
+
+## 0.5.0-beta.1, 2022-03-07
+
+* Fixed: Alignment of the output of the 'show' command when authorIds are more than 5 digits
+* Changed: Rating is now shown as a value instead of a percentage
+* Changed: Config file is no longer distributed with the release
+* Changed: Config file is automatically generated with defaults if missing
+* Changed: Config file is verified for missing, redundant, and invalid entries
+* Changed: 'browse' and 'browseall' now use the CSS file specified in the config file
+* Changed: Default CSS file 'default.css' is now distributed with the release
+* Changed: CSS files may contain keywords that are replaced with config entries
+* Changed: Trimmed the output of the BBCode formatting to remove redundant \[pre\] tags
+
+## 0.4.0-alpha.1, 2022-02-19
+
+* Changed: Replaced pack files with single database file
+
+## 0.3.0-alpha.1, 2022-02-14
+
+* Added: 'url' and 'urlauthor' commands
+* Added: 'openauthor' command
+* Added: Run list of commands in autoexec.txt at startup if it exists
+* Changed: Command 'list', 'show', and 'summary' now show indices for matches
+* Changed: Commands that used to accept a TeaseId now accept a RefId which can be a MatchIndex, \#TeaseId, or @AuthorId
+* Changed: Output formats ansi, plain, and bbcode now prefix TeaseId with '\#' and AuthorId with '@'
+* Changed: Improved help output
+
+## 0.2.0-alpha.1, 2022-01-15
+
+* Added: Readme file
+* Added: Changelog file
+* Fixed: Windows - Crash on browse and browseall with unicode characters
+* Fixed: Windows - ANSI colour codes showing as raw characters in terminal
+* Fixed: Windows - Single file executable has rogue dependencies
+* Changed: Extended help for query command
+
+## 0.1.0-alpha.1, 2022-01-11
+
+* Added: 'help' command
+* Changed: Load database packs in parallel
+
+## 0.0.0-alpha.1, 2022-01-03
+
+* Added: Initial release

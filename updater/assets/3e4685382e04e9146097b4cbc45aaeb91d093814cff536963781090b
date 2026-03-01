@@ -1,0 +1,21 @@
+{
+    "configFiles": {
+        "0": "config.json",
+        "1": "config.json.old",
+        "2": "variables.json"
+    },
+    "coreFiles": [
+        "milodb-manifest.ver",
+        "milodb-changelog.md",
+        "milodb.exe",
+        "milodb-teases.dat",
+        "milodb-thumbs.dat",
+        "default-light.css",
+        "default-dark.css",
+        "milodb-user-guide.pdf"
+    ],
+    "date": "2025-07-31",
+    "format": 1,
+    "variant": "gui-windows",
+    "version": "4.0.0"
+}
