@@ -354,6 +354,45 @@
                         "linux": "milodb"
                     },
                     "log": "* Changed: Improved formatting of the changelog in the update dialog\n* Database: Updated to 2025-12-26"
+                },
+                "4.9.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "47a3133d3497b92fb59ebeef2c1be0cadc57b3fd1aa8d78691ecdd4e",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "bc1db50e7f82738e3c1035cab034d066921bea156ac0bea808f8d9ed"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "a62e6f0067d0d4dd7504d540de2f344e83df30f3fcfc7a985be8b9ba"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "51be90a63a5ef5fd70296375c64136f21bc394ff44cfc17c852f41a4"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "08a48e4b4b45c3c0da54ec60793c5770446e339f6e8b69892c697a83"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "869c315eee0331f5363f6b311011be359ccb50f239c6ba9dea4bc0d1"
+                        }
+                    },
+                    "date": "2026-05-01",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Database: Updated to 2026-01-30"
                 }
             }
         },
@@ -701,6 +740,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Changed: Improved formatting of the changelog in the update dialog\n* Database: Updated to 2025-12-26"
+                },
+                "4.9.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "bc1db50e7f82738e3c1035cab034d066921bea156ac0bea808f8d9ed"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "ef030a4ed774afdeaca433e5e9221b826872b73a2d0dcde61cea31a7"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "51be90a63a5ef5fd70296375c64136f21bc394ff44cfc17c852f41a4"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "08a48e4b4b45c3c0da54ec60793c5770446e339f6e8b69892c697a83"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "869c315eee0331f5363f6b311011be359ccb50f239c6ba9dea4bc0d1"
+                        },
+                        "milodb.exe": {
+                            "digest": "b0687d5d68eb89be5b36409c9d7050a8f1f3edd5b77d7aa7049957d8"
+                        }
+                    },
+                    "date": "2026-05-01",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Database: Updated to 2026-01-30"
                 }
             }
         }
