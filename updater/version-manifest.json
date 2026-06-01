@@ -82,6 +82,45 @@
                     },
                     "log": "* Fixed: Text highlighting started one character too early on lines containing an emoji anywhere before the highlight\n* Fixed: Error highlighting in queries containing unterminated quotes didn't appear after variable expansion\n* Fixed: Error highlighting in queries containing unterminated quotes didn't show in expanded text\n* Changed: Stripped zero-width-space unicode characters from database text\n* Changed: Added copy/open URL buttons to the About dialog\n* Changed: Renamed config files for consistency; prefixed with 'user-'\n* Database: Updated to 2025-05-28"
                 },
+                "4.10.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "47a3133d3497b92fb59ebeef2c1be0cadc57b3fd1aa8d78691ecdd4e",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "fd71064fd20c48903a1dd9191fda03f525c078317fd821f2d5441ca8"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "33918ff22f6fcdea104fe45dd56eeb6c3e48cad823d42abffe7133a7"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "6f91639efc1b51ac8e8f8cf36b19de5235b6304e44325af6f3cff619"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "69a8a5973effb19566e2fbdf72a624f1458d43841d918ac69d7e50af"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "4b1aa18aea879312d5e448f28bf8300940ce6e5e383a5fe5c7ca5b7f"
+                        }
+                    },
+                    "date": "2026-06-01",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Database: Updated to 2026-02-24"
+                },
                 "4.2.0": {
                     "configFiles": {
                         "0": "user-config.json",
@@ -474,6 +513,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Text highlighting started one character too early on lines containing an emoji anywhere before the highlight\n* Fixed: Error highlighting in queries containing unterminated quotes didn't appear after variable expansion\n* Fixed: Error highlighting in queries containing unterminated quotes didn't show in expanded text\n* Changed: Stripped zero-width-space unicode characters from database text\n* Changed: Added copy/open URL buttons to the About dialog\n* Changed: Renamed config files for consistency; prefixed with 'user-'\n* Database: Updated to 2025-05-28"
+                },
+                "4.10.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "fd71064fd20c48903a1dd9191fda03f525c078317fd821f2d5441ca8"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "5d5af76ec3cca293303b059eb072adcd0f1113f3a71919d5ed782900"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "6f91639efc1b51ac8e8f8cf36b19de5235b6304e44325af6f3cff619"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "69a8a5973effb19566e2fbdf72a624f1458d43841d918ac69d7e50af"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "4b1aa18aea879312d5e448f28bf8300940ce6e5e383a5fe5c7ca5b7f"
+                        },
+                        "milodb.exe": {
+                            "digest": "b0687d5d68eb89be5b36409c9d7050a8f1f3edd5b77d7aa7049957d8"
+                        }
+                    },
+                    "date": "2026-06-01",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Database: Updated to 2026-02-24"
                 },
                 "4.2.0": {
                     "configFiles": {
