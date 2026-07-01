@@ -121,6 +121,45 @@
                     },
                     "log": "* Database: Updated to 2026-02-24"
                 },
+                "4.11.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "e1453d6ed2b5d6e893c0da901add051a87dbeb7d5ee93211184aa56d",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "e38c2f5cfa2818d5726f96c59c0df823a83175001b48f0928c8a4ecc"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "447caea327e0b887a0743851ee23ccd321920e9810a436e897c775ad"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "2ac0c662f0a3b9b62707d7d23d26f7e4a83dd87f98a14f73a1f3a620"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "9d13fa6d8f305b1c49b5c98280d659f2585acf64ef5bd952e865c030"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "4b1aa18aea879312d5e448f28bf8300940ce6e5e383a5fe5c7ca5b7f"
+                        }
+                    },
+                    "date": "2026-07-01",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Change log entries in the update dialog had missing space after type\n* Database: Updated to 2026-03-31"
+                },
                 "4.2.0": {
                     "configFiles": {
                         "0": "user-config.json",
@@ -551,6 +590,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Database: Updated to 2026-02-24"
+                },
+                "4.11.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "e38c2f5cfa2818d5726f96c59c0df823a83175001b48f0928c8a4ecc"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "b0b86d229e4634efaa513ba877deff325c71668b395805321795a886"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "2ac0c662f0a3b9b62707d7d23d26f7e4a83dd87f98a14f73a1f3a620"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "9d13fa6d8f305b1c49b5c98280d659f2585acf64ef5bd952e865c030"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "4b1aa18aea879312d5e448f28bf8300940ce6e5e383a5fe5c7ca5b7f"
+                        },
+                        "milodb.exe": {
+                            "digest": "0f74789a9c0850716246d0df4064c36c9908cd11c12ec085771b6599"
+                        }
+                    },
+                    "date": "2026-07-01",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Change log entries in the update dialog had missing space after type\n* Database: Updated to 2026-03-31"
                 },
                 "4.2.0": {
                     "configFiles": {
