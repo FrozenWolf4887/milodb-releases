@@ -1,0 +1,139 @@
+# MiloDB GUI, Change Log
+
+## 4.1.0, 2025-08-31
+
+* Fixed: Text highlighting started one character too early on lines containing an emoji anywhere before the highlight
+* Fixed: Error highlighting in queries containing unterminated quotes didn't appear after variable expansion
+* Fixed: Error highlighting in queries containing unterminated quotes didn't show in expanded text
+* Changed: Stripped zero-width-space unicode characters from database text
+* Changed: Added copy/open URL buttons to the About dialog
+* Changed: Renamed config files for consistency; prefixed with 'user-'
+* Database: Updated to 2025-05-28
+
+## 4.0.0, 2025-07-31
+
+* Fixed: Dialogs now get focus when opened
+* Fixed: Highlighting of query tokens with leading escape sequences were not highlighted correctly
+* Changed: Numeric keypad can now be used for text cursor navigation on Linux
+* Database: Updated to 2025-04-29
+
+## 4.0.0-rc.3, 2025-07-15
+
+* Changed: Query expression now has syntax colouring
+* Changed: Extended user guide
+
+## 4.0.0-rc.2, 2025-07-07
+
+* Changed: Extended user guide
+* Added: 'Generate Summary' button to summarise results in an HTML page
+* Added: Columns for audio file counts to the list panel
+* Added: Statistics for audio file counts to the statistics dialog
+
+## 4.0.0-rc.1, 2025-06-30
+
+* Fixed: Update failed when trying to rename non-existent config files
+* Changed: Renamed core files for consistency
+* Changed: Improved contrast of tease selection in panels
+* Database: Updated to 2025-03-30
+
+## 4.0.0-beta.2, 2025-06-24
+
+* Fixed: Log text in log window did not expand when the window was resized
+* Added: Initial user guide
+* Changed: Used fixed width font for log text
+* Changed: Improved consistency of fonts and font sizes across platforms
+* Changed: Prefixed error messages are now coloured
+
+## 4.0.0-beta.1, 2025-05-30
+
+* Fixed: Suggestion text in the query panel is now blank when the cursor is after an error
+* Fixed: Expanded text in query panel is no longer cut off prematurely when there is an error within a variable
+* Fixed: Error underline in query panel will now highlight the variable if there is an error in the variable
+* Fixed: Error underline in query panel is now positioned correctly after variable expansion
+* Added: Configuration tab for variables
+* Added: Word count as a column in the list panel
+* Added: Expansion text shows error underline when there is an error in a variable
+* Changed: Expansion text now word-wraps when it is wider than the window
+* Changed: Query text is now a variable width font
+* Changed: Improved theme consistency between platforms
+* Database: Updated to 2025-02-27
+
+## 4.0.0-alpha.11, 2025-05-11
+
+* Fixed: Handling of quoted text in custom launch commands
+* Added: Config dialog
+
+## 4.0.0-alpha.10, 2025-04-30
+
+* Fixed: Mouse-wheel scrolling now works reliably in all tabs of update dialog
+* Changed: Status icon shown on query panel now matches theme
+* Added: Text pages can now be selected for consistency with other panels
+* Added: List panel supports copying rows from right-click menu
+* Added: Card panel supports copying cards from right-click menu
+* Added: Text panel supports copying text from right-click menu
+* Added: About dialog now shows the amount of memory used by the application
+* Database: Recovered some missing author names and IDs
+* Database: Updated to 2025-01-29
+
+## 4.0.0-alpha.9, 2025-04-16
+
+* Fixed: Log message prefixes are no longer doubled-up in log displays
+* Changed: Cells in the list panel are now aligned left/right/middle as appropriate
+* Changed: TeaseId \(TID\) and AuthorId \(AID\) are not shown by default in the list panel
+* Changed: When updating to a different variant, all change history is now shown
+* Changed: When updating, all change history is now shown with the new changes highlighted
+* Changed: Dialogs are now opened in the middle of the main window
+* Added: Columns in the list panel can now be hidden/shown with a right-click menu
+* Added: Progress dialog is displayed during a search
+* Added: Wait cursor is displayed during a search
+
+## 4.0.0-alpha.8, 2025-03-31
+
+* Fixed: Dragging the stats dialog around the screen no longer lags behind the mouse cursor
+* Changed: Improved speed of opening stats dialog
+* Changed: Show top 100 entries in stats dialog instead of 80
+* Changed: Show newest and oldest tease date in stats dialog
+* Database: Stripped duplicate page names from NYX teases
+* Database: Updated to 2024-12-31
+
+## 4.0.0-alpha.7, 2025-03-28
+
+* Fixed: Scroll-wheel now works on background of some tables
+* Changed: Open tease/author is now disabled if launch configuration option is set to 'none'
+* Added: About dialog
+* Added: Stats dialog
+
+## 4.0.0-alpha.6, 2025-03-21
+
+* Changed: Replaced text with icons for TOTM and tease/author status in list panel
+* Changed: Reordered columns in list panel
+* Added: Sort by any column in the list panel
+* Added: Highlight which list column is used for sorting
+* Added: Invert sort direction when clicking on list header again
+
+## 4.0.0-alpha.5, 2025-03-16
+
+* Changed: Upgraded setuptools package to try and avoid Microsoft Defender false-positive trojan detection
+
+## 4.0.0-alpha.4, 2025-03-14
+
+* Changed: 'Open Author...' in popup menu will be disabled if author is not known
+* Added: Popup menu now includes opening of a tease author's tease list
+* Added: Popup menu now includes copying of tease and author URIs
+
+## 4.0.0-alpha.3, 2025-03-13
+
+* Fixed: Update no longer tries to execute 'None' when switching to a non-supported platform
+* Fixed: Update no longer fails when trying to delete non-existent deprecated config files
+* Changed: During update, temporary files are placed in subdirectory of main application instead of system temp
+* Added: Warn user when trying to update/switch to a variant with an unsupported main executable
+* Added: Scroll selected tease into view in other panels if not visible
+* Added: Popup menu to open tease/author profile
+
+## 4.0.0-alpha.2, 2025-03-10
+
+* Fixed: Windows - Scrolling the card panel up and down with the scroll bar crashed the application
+
+## 4.0.0-alpha.1, 2025-03-09
+
+* Added: Initial release of GUI for evaluation
