@@ -238,6 +238,45 @@
                     },
                     "log": "* Fixed: The update process will now wait properly for the application to terminate before replacing the files\n* Changed: Before replacing files during an update, a pre-update safety check is performed to see if the update is likely to succeed\n* Changed: If there are startup warnings or errors, it will prompt with the log displayed before continuing\n* Added: Time stamps are included in the log output to help with diagnostics"
                 },
+                "4.13.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "1d28bb482808a73923c77ad6470a18359498e4a9b5376f6d535d79a1",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "a9cb64c13c7c2d4afa337cfdeaf560da8d452f233ce398bda9229486"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "72728954acccdaf15c55ceca40dad70a6b5103f9d201e50c74092c14"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "1b2ffdc5e7d7fcc1b40ab8e25066361e042379c19a96d66c797e2230"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "42d230bd25b469d1d52c383177141a29db37e121f84603300bf847db"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "4b1aa18aea879312d5e448f28bf8300940ce6e5e383a5fe5c7ca5b7f"
+                        }
+                    },
+                    "date": "2026-09-01",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Selected text was unreadable in expanded text when it was highlighted\n* Database: Updated to 2026-05-28"
+                },
                 "4.2.0": {
                     "configFiles": {
                         "0": "user-config.json",
@@ -782,6 +821,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: The update process will now wait properly for the application to terminate before replacing the files\n* Changed: Before replacing files during an update, a pre-update safety check is performed to see if the update is likely to succeed\n* Changed: If there are startup warnings or errors, it will prompt with the log displayed before continuing\n* Added: Time stamps are included in the log output to help with diagnostics"
+                },
+                "4.13.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "a9cb64c13c7c2d4afa337cfdeaf560da8d452f233ce398bda9229486"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "121b982f88e7127ef6ec642b1975f0cf797cce77c0f7f5cae0145368"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "1b2ffdc5e7d7fcc1b40ab8e25066361e042379c19a96d66c797e2230"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "42d230bd25b469d1d52c383177141a29db37e121f84603300bf847db"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "4b1aa18aea879312d5e448f28bf8300940ce6e5e383a5fe5c7ca5b7f"
+                        },
+                        "milodb.exe": {
+                            "digest": "ad97b45c17c832ec8e3a85c9730bd2774ec1c6635d8d148047f2f552"
+                        }
+                    },
+                    "date": "2026-09-01",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Selected text was unreadable in expanded text when it was highlighted\n* Database: Updated to 2026-05-28"
                 },
                 "4.2.0": {
                     "configFiles": {
