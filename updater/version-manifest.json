@@ -277,6 +277,45 @@
                     },
                     "log": "* Fixed: Selected text was unreadable in expanded text when it was highlighted\n* Database: Updated to 2026-05-28"
                 },
+                "4.13.1": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "d460ba7b10549e617f9a63dd247bcb9f89fdf4e6bac74e58af87fcdf",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "3aacd930fcfa8e40dce00f3aece47924542c004eb38ea718e8ef79bf"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "f52631ae38f3bfc91f516217eff400ed20488a81f4ec35595de781b7"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "1b2ffdc5e7d7fcc1b40ab8e25066361e042379c19a96d66c797e2230"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "42d230bd25b469d1d52c383177141a29db37e121f84603300bf847db"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "43879a81fe0b00562cdda220f310eb17c5982af9651d2fb66fb492f3"
+                        }
+                    },
+                    "date": "2026-09-15",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Update failed on Fedora based Linux distros due to failing to find SSL certificates"
+                },
                 "4.2.0": {
                     "configFiles": {
                         "0": "user-config.json",
@@ -859,6 +898,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Selected text was unreadable in expanded text when it was highlighted\n* Database: Updated to 2026-05-28"
+                },
+                "4.13.1": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "3aacd930fcfa8e40dce00f3aece47924542c004eb38ea718e8ef79bf"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "a55586b322ccdd9c14fa9bdaa248475253a31758002ae6e1166e59b3"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "1b2ffdc5e7d7fcc1b40ab8e25066361e042379c19a96d66c797e2230"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "42d230bd25b469d1d52c383177141a29db37e121f84603300bf847db"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "43879a81fe0b00562cdda220f310eb17c5982af9651d2fb66fb492f3"
+                        },
+                        "milodb.exe": {
+                            "digest": "d3051b34a5998292fe2bcab2af69b35fb6aa5ac80515cfca2c526cc6"
+                        }
+                    },
+                    "date": "2026-09-15",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Update failed on Fedora based Linux distros due to failing to find SSL certificates"
                 },
                 "4.2.0": {
                     "configFiles": {
