@@ -316,6 +316,45 @@
                     },
                     "log": "* Fixed: Update failed on Fedora based Linux distros due to failing to find SSL certificates"
                 },
+                "4.13.2": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "a49c534449ae5329d65eeaab7c7431fa5696caaae15c6aa374169fc8",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "9ef0e5658c78892b83003e4f0d3b63827dfc6aa3c49d7f4210ea4116"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "7adfeb4b32a5d5b3aba7714d5f115d9870d5fd576bba6028f6b013ac"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "1b2ffdc5e7d7fcc1b40ab8e25066361e042379c19a96d66c797e2230"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "42d230bd25b469d1d52c383177141a29db37e121f84603300bf847db"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "43879a81fe0b00562cdda220f310eb17c5982af9651d2fb66fb492f3"
+                        }
+                    },
+                    "date": "2026-09-22",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Fixed: Update failed on Linux distros from failing to replace main application which was still running"
+                },
                 "4.2.0": {
                     "configFiles": {
                         "0": "user-config.json",
@@ -936,6 +975,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Fixed: Update failed on Fedora based Linux distros due to failing to find SSL certificates"
+                },
+                "4.13.2": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "9ef0e5658c78892b83003e4f0d3b63827dfc6aa3c49d7f4210ea4116"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "b5133ebfbbab6cc352864215c00d2fe0cc754a1784dad38d58a1ea03"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "1b2ffdc5e7d7fcc1b40ab8e25066361e042379c19a96d66c797e2230"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "42d230bd25b469d1d52c383177141a29db37e121f84603300bf847db"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "43879a81fe0b00562cdda220f310eb17c5982af9651d2fb66fb492f3"
+                        },
+                        "milodb.exe": {
+                            "digest": "42723d35bbfa21e79df57b7deaecc43208b67d710696400fe6e501f0"
+                        }
+                    },
+                    "date": "2026-09-22",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Fixed: Update failed on Linux distros from failing to replace main application which was still running"
                 },
                 "4.2.0": {
                     "configFiles": {
