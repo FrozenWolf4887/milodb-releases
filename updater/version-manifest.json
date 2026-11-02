@@ -394,6 +394,45 @@
                     },
                     "log": "* Database: Updated to 2026-06-30"
                 },
+                "4.15.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb": {
+                            "digest": "c78dee39cdf2649c463d805af541e87926289adedbf73c2bcbb566db",
+                            "exe": true
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "e48c924b602d2e8e3218479e356a6bd250dd0a998e9fd1166a7d39fe"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "4af3bd27cfcae292e2589d930832acfc3a13f4af8916335f9215e0ab"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "ff792605369ad6b5614eb8d8ed66076c6d4ca130a195f937cb4554fe"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "f69592281695229b967caece82e01d45d6e6199a513ff7dfc2f6a96e"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "3fd6ad7370cbac3a26c310db313d69ea967f4db3df2128171d5d6ec1"
+                        }
+                    },
+                    "date": "2026-11-02",
+                    "launchFiles": {
+                        "linux": "milodb"
+                    },
+                    "log": "* Changed: Overhauled the progress display when performing an update\n* Added: Included some details of the update system to the developer guide\n* Database: Updated to 2026-07-29"
+                },
                 "4.2.0": {
                     "configFiles": {
                         "0": "user-config.json",
@@ -1090,6 +1129,44 @@
                         "win32": "milodb.exe"
                     },
                     "log": "* Database: Updated to 2026-06-30"
+                },
+                "4.15.0": {
+                    "configFiles": {
+                        "0": "user-config.json",
+                        "1": "user-config.json.old",
+                        "2": "user-variables.json"
+                    },
+                    "coreFiles": {
+                        "default-dark.css": {
+                            "digest": "e94f545480d455678edcb15e24f867714be7fda99dc9e54838075e67"
+                        },
+                        "default-light.css": {
+                            "digest": "7b258e5a9b25fd86d31fa16c87b57745ab83be54b3c3c3f7e1a179eb"
+                        },
+                        "milodb-changelog.md": {
+                            "digest": "e48c924b602d2e8e3218479e356a6bd250dd0a998e9fd1166a7d39fe"
+                        },
+                        "milodb-manifest.ver": {
+                            "digest": "145e9f3bbdeb1f3423d6312072e45f0d22cf74aac36e61685ccde4e8"
+                        },
+                        "milodb-teases.dat": {
+                            "digest": "ff792605369ad6b5614eb8d8ed66076c6d4ca130a195f937cb4554fe"
+                        },
+                        "milodb-thumbs.dat": {
+                            "digest": "f69592281695229b967caece82e01d45d6e6199a513ff7dfc2f6a96e"
+                        },
+                        "milodb-user-guide.pdf": {
+                            "digest": "3fd6ad7370cbac3a26c310db313d69ea967f4db3df2128171d5d6ec1"
+                        },
+                        "milodb.exe": {
+                            "digest": "b0c6c5d1e39511d619f9a7c36c421d88a6beb9371db59497d02f6693"
+                        }
+                    },
+                    "date": "2026-11-02",
+                    "launchFiles": {
+                        "win32": "milodb.exe"
+                    },
+                    "log": "* Changed: Overhauled the progress display when performing an update\n* Added: Included some details of the update system to the developer guide\n* Database: Updated to 2026-07-29"
                 },
                 "4.2.0": {
                     "configFiles": {
